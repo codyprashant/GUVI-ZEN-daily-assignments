@@ -1,0 +1,3961 @@
+{
+    "countries": [
+        {
+            "languages": [
+                {
+                    "iso639_1": "ps",
+                    "iso639_2": "pus",
+                    "name": "Pashto",
+                    "nativeName": "پښتو"
+                },
+                {
+                    "iso639_1": "uz",
+                    "iso639_2": "uzb",
+                    "name": "Uzbek",
+                    "nativeName": "Oʻzbek"
+                },
+                {
+                    "iso639_1": "tk",
+                    "iso639_2": "tuk",
+                    "name": "Turkmen",
+                    "nativeName": "Türkmen"
+                }
+            ],
+            "name": "Afghanistan",
+            "capital": "Kabul",
+            "region": "Asia"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "sv",
+                    "iso639_2": "swe",
+                    "name": "Swedish",
+                    "nativeName": "svenska"
+                }
+            ],
+            "name": "Åland Islands",
+            "capital": "Mariehamn",
+            "region": "Europe"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "sq",
+                    "iso639_2": "sqi",
+                    "name": "Albanian",
+                    "nativeName": "Shqip"
+                }
+            ],
+            "name": "Albania",
+            "capital": "Tirana",
+            "region": "Europe"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "ar",
+                    "iso639_2": "ara",
+                    "name": "Arabic",
+                    "nativeName": "العربية"
+                }
+            ],
+            "name": "Algeria",
+            "capital": "Algiers",
+            "region": "Africa"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "en",
+                    "iso639_2": "eng",
+                    "name": "English",
+                    "nativeName": "English"
+                },
+                {
+                    "iso639_1": "sm",
+                    "iso639_2": "smo",
+                    "name": "Samoan",
+                    "nativeName": "gagana fa'a Samoa"
+                }
+            ],
+            "name": "American Samoa",
+            "capital": "Pago Pago",
+            "region": "Oceania"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "ca",
+                    "iso639_2": "cat",
+                    "name": "Catalan",
+                    "nativeName": "català"
+                }
+            ],
+            "name": "Andorra",
+            "capital": "Andorra la Vella",
+            "region": "Europe"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "pt",
+                    "iso639_2": "por",
+                    "name": "Portuguese",
+                    "nativeName": "Português"
+                }
+            ],
+            "name": "Angola",
+            "capital": "Luanda",
+            "region": "Africa"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "en",
+                    "iso639_2": "eng",
+                    "name": "English",
+                    "nativeName": "English"
+                }
+            ],
+            "name": "Anguilla",
+            "capital": "The Valley",
+            "region": "Americas"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "en",
+                    "iso639_2": "eng",
+                    "name": "English",
+                    "nativeName": "English"
+                },
+                {
+                    "iso639_1": "ru",
+                    "iso639_2": "rus",
+                    "name": "Russian",
+                    "nativeName": "Русский"
+                }
+            ],
+            "name": "Antarctica",
+            "capital": "",
+            "region": "Polar"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "en",
+                    "iso639_2": "eng",
+                    "name": "English",
+                    "nativeName": "English"
+                }
+            ],
+            "name": "Antigua and Barbuda",
+            "capital": "Saint John's",
+            "region": "Americas"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "es",
+                    "iso639_2": "spa",
+                    "name": "Spanish",
+                    "nativeName": "Español"
+                },
+                {
+                    "iso639_1": "gn",
+                    "iso639_2": "grn",
+                    "name": "Guaraní",
+                    "nativeName": "Avañe'ẽ"
+                }
+            ],
+            "name": "Argentina",
+            "capital": "Buenos Aires",
+            "region": "Americas"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "hy",
+                    "iso639_2": "hye",
+                    "name": "Armenian",
+                    "nativeName": "Հայերեն"
+                },
+                {
+                    "iso639_1": "ru",
+                    "iso639_2": "rus",
+                    "name": "Russian",
+                    "nativeName": "Русский"
+                }
+            ],
+            "name": "Armenia",
+            "capital": "Yerevan",
+            "region": "Asia"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "nl",
+                    "iso639_2": "nld",
+                    "name": "Dutch",
+                    "nativeName": "Nederlands"
+                },
+                {
+                    "iso639_1": "pa",
+                    "iso639_2": "pan",
+                    "name": "(Eastern) Punjabi",
+                    "nativeName": "ਪੰਜਾਬੀ"
+                }
+            ],
+            "name": "Aruba",
+            "capital": "Oranjestad",
+            "region": "Americas"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "en",
+                    "iso639_2": "eng",
+                    "name": "English",
+                    "nativeName": "English"
+                }
+            ],
+            "name": "Australia",
+            "capital": "Canberra",
+            "region": "Oceania"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "de",
+                    "iso639_2": "deu",
+                    "name": "German",
+                    "nativeName": "Deutsch"
+                }
+            ],
+            "name": "Austria",
+            "capital": "Vienna",
+            "region": "Europe"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "az",
+                    "iso639_2": "aze",
+                    "name": "Azerbaijani",
+                    "nativeName": "azərbaycan dili"
+                }
+            ],
+            "name": "Azerbaijan",
+            "capital": "Baku",
+            "region": "Asia"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "en",
+                    "iso639_2": "eng",
+                    "name": "English",
+                    "nativeName": "English"
+                }
+            ],
+            "name": "Bahamas",
+            "capital": "Nassau",
+            "region": "Americas"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "ar",
+                    "iso639_2": "ara",
+                    "name": "Arabic",
+                    "nativeName": "العربية"
+                }
+            ],
+            "name": "Bahrain",
+            "capital": "Manama",
+            "region": "Asia"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "bn",
+                    "iso639_2": "ben",
+                    "name": "Bengali",
+                    "nativeName": "বাংলা"
+                }
+            ],
+            "name": "Bangladesh",
+            "capital": "Dhaka",
+            "region": "Asia"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "en",
+                    "iso639_2": "eng",
+                    "name": "English",
+                    "nativeName": "English"
+                }
+            ],
+            "name": "Barbados",
+            "capital": "Bridgetown",
+            "region": "Americas"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "be",
+                    "iso639_2": "bel",
+                    "name": "Belarusian",
+                    "nativeName": "беларуская мова"
+                },
+                {
+                    "iso639_1": "ru",
+                    "iso639_2": "rus",
+                    "name": "Russian",
+                    "nativeName": "Русский"
+                }
+            ],
+            "name": "Belarus",
+            "capital": "Minsk",
+            "region": "Europe"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "nl",
+                    "iso639_2": "nld",
+                    "name": "Dutch",
+                    "nativeName": "Nederlands"
+                },
+                {
+                    "iso639_1": "fr",
+                    "iso639_2": "fra",
+                    "name": "French",
+                    "nativeName": "français"
+                },
+                {
+                    "iso639_1": "de",
+                    "iso639_2": "deu",
+                    "name": "German",
+                    "nativeName": "Deutsch"
+                }
+            ],
+            "name": "Belgium",
+            "capital": "Brussels",
+            "region": "Europe"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "en",
+                    "iso639_2": "eng",
+                    "name": "English",
+                    "nativeName": "English"
+                },
+                {
+                    "iso639_1": "es",
+                    "iso639_2": "spa",
+                    "name": "Spanish",
+                    "nativeName": "Español"
+                }
+            ],
+            "name": "Belize",
+            "capital": "Belmopan",
+            "region": "Americas"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "fr",
+                    "iso639_2": "fra",
+                    "name": "French",
+                    "nativeName": "français"
+                }
+            ],
+            "name": "Benin",
+            "capital": "Porto-Novo",
+            "region": "Africa"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "en",
+                    "iso639_2": "eng",
+                    "name": "English",
+                    "nativeName": "English"
+                }
+            ],
+            "name": "Bermuda",
+            "capital": "Hamilton",
+            "region": "Americas"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "dz",
+                    "iso639_2": "dzo",
+                    "name": "Dzongkha",
+                    "nativeName": "རྫོང་ཁ"
+                }
+            ],
+            "name": "Bhutan",
+            "capital": "Thimphu",
+            "region": "Asia"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "es",
+                    "iso639_2": "spa",
+                    "name": "Spanish",
+                    "nativeName": "Español"
+                },
+                {
+                    "iso639_1": "ay",
+                    "iso639_2": "aym",
+                    "name": "Aymara",
+                    "nativeName": "aymar aru"
+                },
+                {
+                    "iso639_1": "qu",
+                    "iso639_2": "que",
+                    "name": "Quechua",
+                    "nativeName": "Runa Simi"
+                }
+            ],
+            "name": "Bolivia (Plurinational State of)",
+            "capital": "Sucre",
+            "region": "Americas"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "nl",
+                    "iso639_2": "nld",
+                    "name": "Dutch",
+                    "nativeName": "Nederlands"
+                }
+            ],
+            "name": "Bonaire, Sint Eustatius and Saba",
+            "capital": "Kralendijk",
+            "region": "Americas"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "bs",
+                    "iso639_2": "bos",
+                    "name": "Bosnian",
+                    "nativeName": "bosanski jezik"
+                },
+                {
+                    "iso639_1": "hr",
+                    "iso639_2": "hrv",
+                    "name": "Croatian",
+                    "nativeName": "hrvatski jezik"
+                },
+                {
+                    "iso639_1": "sr",
+                    "iso639_2": "srp",
+                    "name": "Serbian",
+                    "nativeName": "српски језик"
+                }
+            ],
+            "name": "Bosnia and Herzegovina",
+            "capital": "Sarajevo",
+            "region": "Europe"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "en",
+                    "iso639_2": "eng",
+                    "name": "English",
+                    "nativeName": "English"
+                },
+                {
+                    "iso639_1": "tn",
+                    "iso639_2": "tsn",
+                    "name": "Tswana",
+                    "nativeName": "Setswana"
+                }
+            ],
+            "name": "Botswana",
+            "capital": "Gaborone",
+            "region": "Africa"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "no",
+                    "iso639_2": "nor",
+                    "name": "Norwegian",
+                    "nativeName": "Norsk"
+                },
+                {
+                    "iso639_1": "nb",
+                    "iso639_2": "nob",
+                    "name": "Norwegian Bokmål",
+                    "nativeName": "Norsk bokmål"
+                },
+                {
+                    "iso639_1": "nn",
+                    "iso639_2": "nno",
+                    "name": "Norwegian Nynorsk",
+                    "nativeName": "Norsk nynorsk"
+                }
+            ],
+            "name": "Bouvet Island",
+            "capital": "",
+            "region": ""
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "pt",
+                    "iso639_2": "por",
+                    "name": "Portuguese",
+                    "nativeName": "Português"
+                }
+            ],
+            "name": "Brazil",
+            "capital": "Brasília",
+            "region": "Americas"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "en",
+                    "iso639_2": "eng",
+                    "name": "English",
+                    "nativeName": "English"
+                }
+            ],
+            "name": "British Indian Ocean Territory",
+            "capital": "Diego Garcia",
+            "region": "Africa"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "en",
+                    "iso639_2": "eng",
+                    "name": "English",
+                    "nativeName": "English"
+                }
+            ],
+            "name": "United States Minor Outlying Islands",
+            "capital": "",
+            "region": "Americas"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "en",
+                    "iso639_2": "eng",
+                    "name": "English",
+                    "nativeName": "English"
+                }
+            ],
+            "name": "Virgin Islands (British)",
+            "capital": "Road Town",
+            "region": "Americas"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "en",
+                    "iso639_2": "eng",
+                    "name": "English",
+                    "nativeName": "English"
+                }
+            ],
+            "name": "Virgin Islands (U.S.)",
+            "capital": "Charlotte Amalie",
+            "region": "Americas"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "ms",
+                    "iso639_2": "msa",
+                    "name": "Malay",
+                    "nativeName": "bahasa Melayu"
+                }
+            ],
+            "name": "Brunei Darussalam",
+            "capital": "Bandar Seri Begawan",
+            "region": "Asia"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "bg",
+                    "iso639_2": "bul",
+                    "name": "Bulgarian",
+                    "nativeName": "български език"
+                }
+            ],
+            "name": "Bulgaria",
+            "capital": "Sofia",
+            "region": "Europe"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "fr",
+                    "iso639_2": "fra",
+                    "name": "French",
+                    "nativeName": "français"
+                },
+                {
+                    "iso639_1": "ff",
+                    "iso639_2": "ful",
+                    "name": "Fula",
+                    "nativeName": "Fulfulde"
+                }
+            ],
+            "name": "Burkina Faso",
+            "capital": "Ouagadougou",
+            "region": "Africa"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "fr",
+                    "iso639_2": "fra",
+                    "name": "French",
+                    "nativeName": "français"
+                },
+                {
+                    "iso639_1": "rn",
+                    "iso639_2": "run",
+                    "name": "Kirundi",
+                    "nativeName": "Ikirundi"
+                }
+            ],
+            "name": "Burundi",
+            "capital": "Bujumbura",
+            "region": "Africa"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "km",
+                    "iso639_2": "khm",
+                    "name": "Khmer",
+                    "nativeName": "ខ្មែរ"
+                }
+            ],
+            "name": "Cambodia",
+            "capital": "Phnom Penh",
+            "region": "Asia"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "en",
+                    "iso639_2": "eng",
+                    "name": "English",
+                    "nativeName": "English"
+                },
+                {
+                    "iso639_1": "fr",
+                    "iso639_2": "fra",
+                    "name": "French",
+                    "nativeName": "français"
+                }
+            ],
+            "name": "Cameroon",
+            "capital": "Yaoundé",
+            "region": "Africa"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "en",
+                    "iso639_2": "eng",
+                    "name": "English",
+                    "nativeName": "English"
+                },
+                {
+                    "iso639_1": "fr",
+                    "iso639_2": "fra",
+                    "name": "French",
+                    "nativeName": "français"
+                }
+            ],
+            "name": "Canada",
+            "capital": "Ottawa",
+            "region": "Americas"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "pt",
+                    "iso639_2": "por",
+                    "name": "Portuguese",
+                    "nativeName": "Português"
+                }
+            ],
+            "name": "Cabo Verde",
+            "capital": "Praia",
+            "region": "Africa"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "en",
+                    "iso639_2": "eng",
+                    "name": "English",
+                    "nativeName": "English"
+                }
+            ],
+            "name": "Cayman Islands",
+            "capital": "George Town",
+            "region": "Americas"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "fr",
+                    "iso639_2": "fra",
+                    "name": "French",
+                    "nativeName": "français"
+                },
+                {
+                    "iso639_1": "sg",
+                    "iso639_2": "sag",
+                    "name": "Sango",
+                    "nativeName": "yângâ tî sängö"
+                }
+            ],
+            "name": "Central African Republic",
+            "capital": "Bangui",
+            "region": "Africa"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "fr",
+                    "iso639_2": "fra",
+                    "name": "French",
+                    "nativeName": "français"
+                },
+                {
+                    "iso639_1": "ar",
+                    "iso639_2": "ara",
+                    "name": "Arabic",
+                    "nativeName": "العربية"
+                }
+            ],
+            "name": "Chad",
+            "capital": "N'Djamena",
+            "region": "Africa"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "es",
+                    "iso639_2": "spa",
+                    "name": "Spanish",
+                    "nativeName": "Español"
+                }
+            ],
+            "name": "Chile",
+            "capital": "Santiago",
+            "region": "Americas"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "zh",
+                    "iso639_2": "zho",
+                    "name": "Chinese",
+                    "nativeName": "中文 (Zhōngwén)"
+                }
+            ],
+            "name": "China",
+            "capital": "Beijing",
+            "region": "Asia"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "en",
+                    "iso639_2": "eng",
+                    "name": "English",
+                    "nativeName": "English"
+                }
+            ],
+            "name": "Christmas Island",
+            "capital": "Flying Fish Cove",
+            "region": "Oceania"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "en",
+                    "iso639_2": "eng",
+                    "name": "English",
+                    "nativeName": "English"
+                }
+            ],
+            "name": "Cocos (Keeling) Islands",
+            "capital": "West Island",
+            "region": "Oceania"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "es",
+                    "iso639_2": "spa",
+                    "name": "Spanish",
+                    "nativeName": "Español"
+                }
+            ],
+            "name": "Colombia",
+            "capital": "Bogotá",
+            "region": "Americas"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "ar",
+                    "iso639_2": "ara",
+                    "name": "Arabic",
+                    "nativeName": "العربية"
+                },
+                {
+                    "iso639_1": "fr",
+                    "iso639_2": "fra",
+                    "name": "French",
+                    "nativeName": "français"
+                }
+            ],
+            "name": "Comoros",
+            "capital": "Moroni",
+            "region": "Africa"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "fr",
+                    "iso639_2": "fra",
+                    "name": "French",
+                    "nativeName": "français"
+                },
+                {
+                    "iso639_1": "ln",
+                    "iso639_2": "lin",
+                    "name": "Lingala",
+                    "nativeName": "Lingála"
+                }
+            ],
+            "name": "Congo",
+            "capital": "Brazzaville",
+            "region": "Africa"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "fr",
+                    "iso639_2": "fra",
+                    "name": "French",
+                    "nativeName": "français"
+                },
+                {
+                    "iso639_1": "ln",
+                    "iso639_2": "lin",
+                    "name": "Lingala",
+                    "nativeName": "Lingála"
+                },
+                {
+                    "iso639_1": "kg",
+                    "iso639_2": "kon",
+                    "name": "Kongo",
+                    "nativeName": "Kikongo"
+                },
+                {
+                    "iso639_1": "sw",
+                    "iso639_2": "swa",
+                    "name": "Swahili",
+                    "nativeName": "Kiswahili"
+                },
+                {
+                    "iso639_1": "lu",
+                    "iso639_2": "lub",
+                    "name": "Luba-Katanga",
+                    "nativeName": "Tshiluba"
+                }
+            ],
+            "name": "Congo (Democratic Republic of the)",
+            "capital": "Kinshasa",
+            "region": "Africa"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "en",
+                    "iso639_2": "eng",
+                    "name": "English",
+                    "nativeName": "English"
+                }
+            ],
+            "name": "Cook Islands",
+            "capital": "Avarua",
+            "region": "Oceania"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "es",
+                    "iso639_2": "spa",
+                    "name": "Spanish",
+                    "nativeName": "Español"
+                }
+            ],
+            "name": "Costa Rica",
+            "capital": "San José",
+            "region": "Americas"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "hr",
+                    "iso639_2": "hrv",
+                    "name": "Croatian",
+                    "nativeName": "hrvatski jezik"
+                }
+            ],
+            "name": "Croatia",
+            "capital": "Zagreb",
+            "region": "Europe"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "es",
+                    "iso639_2": "spa",
+                    "name": "Spanish",
+                    "nativeName": "Español"
+                }
+            ],
+            "name": "Cuba",
+            "capital": "Havana",
+            "region": "Americas"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "nl",
+                    "iso639_2": "nld",
+                    "name": "Dutch",
+                    "nativeName": "Nederlands"
+                },
+                {
+                    "iso639_1": "pa",
+                    "iso639_2": "pan",
+                    "name": "(Eastern) Punjabi",
+                    "nativeName": "ਪੰਜਾਬੀ"
+                },
+                {
+                    "iso639_1": "en",
+                    "iso639_2": "eng",
+                    "name": "English",
+                    "nativeName": "English"
+                }
+            ],
+            "name": "Curaçao",
+            "capital": "Willemstad",
+            "region": "Americas"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "el",
+                    "iso639_2": "ell",
+                    "name": "Greek (modern)",
+                    "nativeName": "ελληνικά"
+                },
+                {
+                    "iso639_1": "tr",
+                    "iso639_2": "tur",
+                    "name": "Turkish",
+                    "nativeName": "Türkçe"
+                },
+                {
+                    "iso639_1": "hy",
+                    "iso639_2": "hye",
+                    "name": "Armenian",
+                    "nativeName": "Հայերեն"
+                }
+            ],
+            "name": "Cyprus",
+            "capital": "Nicosia",
+            "region": "Europe"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "cs",
+                    "iso639_2": "ces",
+                    "name": "Czech",
+                    "nativeName": "čeština"
+                },
+                {
+                    "iso639_1": "sk",
+                    "iso639_2": "slk",
+                    "name": "Slovak",
+                    "nativeName": "slovenčina"
+                }
+            ],
+            "name": "Czech Republic",
+            "capital": "Prague",
+            "region": "Europe"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "da",
+                    "iso639_2": "dan",
+                    "name": "Danish",
+                    "nativeName": "dansk"
+                }
+            ],
+            "name": "Denmark",
+            "capital": "Copenhagen",
+            "region": "Europe"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "fr",
+                    "iso639_2": "fra",
+                    "name": "French",
+                    "nativeName": "français"
+                },
+                {
+                    "iso639_1": "ar",
+                    "iso639_2": "ara",
+                    "name": "Arabic",
+                    "nativeName": "العربية"
+                }
+            ],
+            "name": "Djibouti",
+            "capital": "Djibouti",
+            "region": "Africa"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "en",
+                    "iso639_2": "eng",
+                    "name": "English",
+                    "nativeName": "English"
+                }
+            ],
+            "name": "Dominica",
+            "capital": "Roseau",
+            "region": "Americas"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "es",
+                    "iso639_2": "spa",
+                    "name": "Spanish",
+                    "nativeName": "Español"
+                }
+            ],
+            "name": "Dominican Republic",
+            "capital": "Santo Domingo",
+            "region": "Americas"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "es",
+                    "iso639_2": "spa",
+                    "name": "Spanish",
+                    "nativeName": "Español"
+                }
+            ],
+            "name": "Ecuador",
+            "capital": "Quito",
+            "region": "Americas"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "ar",
+                    "iso639_2": "ara",
+                    "name": "Arabic",
+                    "nativeName": "العربية"
+                }
+            ],
+            "name": "Egypt",
+            "capital": "Cairo",
+            "region": "Africa"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "es",
+                    "iso639_2": "spa",
+                    "name": "Spanish",
+                    "nativeName": "Español"
+                }
+            ],
+            "name": "El Salvador",
+            "capital": "San Salvador",
+            "region": "Americas"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "es",
+                    "iso639_2": "spa",
+                    "name": "Spanish",
+                    "nativeName": "Español"
+                },
+                {
+                    "iso639_1": "fr",
+                    "iso639_2": "fra",
+                    "name": "French",
+                    "nativeName": "français"
+                }
+            ],
+            "name": "Equatorial Guinea",
+            "capital": "Malabo",
+            "region": "Africa"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "ti",
+                    "iso639_2": "tir",
+                    "name": "Tigrinya",
+                    "nativeName": "ትግርኛ"
+                },
+                {
+                    "iso639_1": "ar",
+                    "iso639_2": "ara",
+                    "name": "Arabic",
+                    "nativeName": "العربية"
+                },
+                {
+                    "iso639_1": "en",
+                    "iso639_2": "eng",
+                    "name": "English",
+                    "nativeName": "English"
+                }
+            ],
+            "name": "Eritrea",
+            "capital": "Asmara",
+            "region": "Africa"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "et",
+                    "iso639_2": "est",
+                    "name": "Estonian",
+                    "nativeName": "eesti"
+                }
+            ],
+            "name": "Estonia",
+            "capital": "Tallinn",
+            "region": "Europe"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "am",
+                    "iso639_2": "amh",
+                    "name": "Amharic",
+                    "nativeName": "አማርኛ"
+                }
+            ],
+            "name": "Ethiopia",
+            "capital": "Addis Ababa",
+            "region": "Africa"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "en",
+                    "iso639_2": "eng",
+                    "name": "English",
+                    "nativeName": "English"
+                }
+            ],
+            "name": "Falkland Islands (Malvinas)",
+            "capital": "Stanley",
+            "region": "Americas"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "fo",
+                    "iso639_2": "fao",
+                    "name": "Faroese",
+                    "nativeName": "føroyskt"
+                }
+            ],
+            "name": "Faroe Islands",
+            "capital": "Tórshavn",
+            "region": "Europe"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "en",
+                    "iso639_2": "eng",
+                    "name": "English",
+                    "nativeName": "English"
+                },
+                {
+                    "iso639_1": "fj",
+                    "iso639_2": "fij",
+                    "name": "Fijian",
+                    "nativeName": "vosa Vakaviti"
+                },
+                {
+                    "iso639_1": "hi",
+                    "iso639_2": "hin",
+                    "name": "Hindi",
+                    "nativeName": "हिन्दी"
+                },
+                {
+                    "iso639_1": "ur",
+                    "iso639_2": "urd",
+                    "name": "Urdu",
+                    "nativeName": "اردو"
+                }
+            ],
+            "name": "Fiji",
+            "capital": "Suva",
+            "region": "Oceania"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "fi",
+                    "iso639_2": "fin",
+                    "name": "Finnish",
+                    "nativeName": "suomi"
+                },
+                {
+                    "iso639_1": "sv",
+                    "iso639_2": "swe",
+                    "name": "Swedish",
+                    "nativeName": "svenska"
+                }
+            ],
+            "name": "Finland",
+            "capital": "Helsinki",
+            "region": "Europe"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "fr",
+                    "iso639_2": "fra",
+                    "name": "French",
+                    "nativeName": "français"
+                }
+            ],
+            "name": "France",
+            "capital": "Paris",
+            "region": "Europe"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "fr",
+                    "iso639_2": "fra",
+                    "name": "French",
+                    "nativeName": "français"
+                }
+            ],
+            "name": "French Guiana",
+            "capital": "Cayenne",
+            "region": "Americas"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "fr",
+                    "iso639_2": "fra",
+                    "name": "French",
+                    "nativeName": "français"
+                }
+            ],
+            "name": "French Polynesia",
+            "capital": "Papeetē",
+            "region": "Oceania"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "fr",
+                    "iso639_2": "fra",
+                    "name": "French",
+                    "nativeName": "français"
+                }
+            ],
+            "name": "French Southern Territories",
+            "capital": "Port-aux-Français",
+            "region": "Africa"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "fr",
+                    "iso639_2": "fra",
+                    "name": "French",
+                    "nativeName": "français"
+                }
+            ],
+            "name": "Gabon",
+            "capital": "Libreville",
+            "region": "Africa"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "en",
+                    "iso639_2": "eng",
+                    "name": "English",
+                    "nativeName": "English"
+                }
+            ],
+            "name": "Gambia",
+            "capital": "Banjul",
+            "region": "Africa"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "ka",
+                    "iso639_2": "kat",
+                    "name": "Georgian",
+                    "nativeName": "ქართული"
+                }
+            ],
+            "name": "Georgia",
+            "capital": "Tbilisi",
+            "region": "Asia"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "de",
+                    "iso639_2": "deu",
+                    "name": "German",
+                    "nativeName": "Deutsch"
+                }
+            ],
+            "name": "Germany",
+            "capital": "Berlin",
+            "region": "Europe"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "en",
+                    "iso639_2": "eng",
+                    "name": "English",
+                    "nativeName": "English"
+                }
+            ],
+            "name": "Ghana",
+            "capital": "Accra",
+            "region": "Africa"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "en",
+                    "iso639_2": "eng",
+                    "name": "English",
+                    "nativeName": "English"
+                }
+            ],
+            "name": "Gibraltar",
+            "capital": "Gibraltar",
+            "region": "Europe"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "el",
+                    "iso639_2": "ell",
+                    "name": "Greek (modern)",
+                    "nativeName": "ελληνικά"
+                }
+            ],
+            "name": "Greece",
+            "capital": "Athens",
+            "region": "Europe"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "kl",
+                    "iso639_2": "kal",
+                    "name": "Kalaallisut",
+                    "nativeName": "kalaallisut"
+                }
+            ],
+            "name": "Greenland",
+            "capital": "Nuuk",
+            "region": "Americas"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "en",
+                    "iso639_2": "eng",
+                    "name": "English",
+                    "nativeName": "English"
+                }
+            ],
+            "name": "Grenada",
+            "capital": "St. George's",
+            "region": "Americas"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "fr",
+                    "iso639_2": "fra",
+                    "name": "French",
+                    "nativeName": "français"
+                }
+            ],
+            "name": "Guadeloupe",
+            "capital": "Basse-Terre",
+            "region": "Americas"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "en",
+                    "iso639_2": "eng",
+                    "name": "English",
+                    "nativeName": "English"
+                },
+                {
+                    "iso639_1": "ch",
+                    "iso639_2": "cha",
+                    "name": "Chamorro",
+                    "nativeName": "Chamoru"
+                },
+                {
+                    "iso639_1": "es",
+                    "iso639_2": "spa",
+                    "name": "Spanish",
+                    "nativeName": "Español"
+                }
+            ],
+            "name": "Guam",
+            "capital": "Hagåtña",
+            "region": "Oceania"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "es",
+                    "iso639_2": "spa",
+                    "name": "Spanish",
+                    "nativeName": "Español"
+                }
+            ],
+            "name": "Guatemala",
+            "capital": "Guatemala City",
+            "region": "Americas"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "en",
+                    "iso639_2": "eng",
+                    "name": "English",
+                    "nativeName": "English"
+                },
+                {
+                    "iso639_1": "fr",
+                    "iso639_2": "fra",
+                    "name": "French",
+                    "nativeName": "français"
+                }
+            ],
+            "name": "Guernsey",
+            "capital": "St. Peter Port",
+            "region": "Europe"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "fr",
+                    "iso639_2": "fra",
+                    "name": "French",
+                    "nativeName": "français"
+                },
+                {
+                    "iso639_1": "ff",
+                    "iso639_2": "ful",
+                    "name": "Fula",
+                    "nativeName": "Fulfulde"
+                }
+            ],
+            "name": "Guinea",
+            "capital": "Conakry",
+            "region": "Africa"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "pt",
+                    "iso639_2": "por",
+                    "name": "Portuguese",
+                    "nativeName": "Português"
+                }
+            ],
+            "name": "Guinea-Bissau",
+            "capital": "Bissau",
+            "region": "Africa"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "en",
+                    "iso639_2": "eng",
+                    "name": "English",
+                    "nativeName": "English"
+                }
+            ],
+            "name": "Guyana",
+            "capital": "Georgetown",
+            "region": "Americas"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "fr",
+                    "iso639_2": "fra",
+                    "name": "French",
+                    "nativeName": "français"
+                },
+                {
+                    "iso639_1": "ht",
+                    "iso639_2": "hat",
+                    "name": "Haitian",
+                    "nativeName": "Kreyòl ayisyen"
+                }
+            ],
+            "name": "Haiti",
+            "capital": "Port-au-Prince",
+            "region": "Americas"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "en",
+                    "iso639_2": "eng",
+                    "name": "English",
+                    "nativeName": "English"
+                }
+            ],
+            "name": "Heard Island and McDonald Islands",
+            "capital": "",
+            "region": ""
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "la",
+                    "iso639_2": "lat",
+                    "name": "Latin",
+                    "nativeName": "latine"
+                },
+                {
+                    "iso639_1": "it",
+                    "iso639_2": "ita",
+                    "name": "Italian",
+                    "nativeName": "Italiano"
+                },
+                {
+                    "iso639_1": "fr",
+                    "iso639_2": "fra",
+                    "name": "French",
+                    "nativeName": "français"
+                },
+                {
+                    "iso639_1": "de",
+                    "iso639_2": "deu",
+                    "name": "German",
+                    "nativeName": "Deutsch"
+                }
+            ],
+            "name": "Holy See",
+            "capital": "Rome",
+            "region": "Europe"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "es",
+                    "iso639_2": "spa",
+                    "name": "Spanish",
+                    "nativeName": "Español"
+                }
+            ],
+            "name": "Honduras",
+            "capital": "Tegucigalpa",
+            "region": "Americas"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "en",
+                    "iso639_2": "eng",
+                    "name": "English",
+                    "nativeName": "English"
+                },
+                {
+                    "iso639_1": "zh",
+                    "iso639_2": "zho",
+                    "name": "Chinese",
+                    "nativeName": "中文 (Zhōngwén)"
+                }
+            ],
+            "name": "Hong Kong",
+            "capital": "City of Victoria",
+            "region": "Asia"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "hu",
+                    "iso639_2": "hun",
+                    "name": "Hungarian",
+                    "nativeName": "magyar"
+                }
+            ],
+            "name": "Hungary",
+            "capital": "Budapest",
+            "region": "Europe"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "is",
+                    "iso639_2": "isl",
+                    "name": "Icelandic",
+                    "nativeName": "Íslenska"
+                }
+            ],
+            "name": "Iceland",
+            "capital": "Reykjavík",
+            "region": "Europe"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "hi",
+                    "iso639_2": "hin",
+                    "name": "Hindi",
+                    "nativeName": "हिन्दी"
+                },
+                {
+                    "iso639_1": "en",
+                    "iso639_2": "eng",
+                    "name": "English",
+                    "nativeName": "English"
+                }
+            ],
+            "name": "India",
+            "capital": "New Delhi",
+            "region": "Asia"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "id",
+                    "iso639_2": "ind",
+                    "name": "Indonesian",
+                    "nativeName": "Bahasa Indonesia"
+                }
+            ],
+            "name": "Indonesia",
+            "capital": "Jakarta",
+            "region": "Asia"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "fr",
+                    "iso639_2": "fra",
+                    "name": "French",
+                    "nativeName": "français"
+                }
+            ],
+            "name": "Côte d'Ivoire",
+            "capital": "Yamoussoukro",
+            "region": "Africa"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "fa",
+                    "iso639_2": "fas",
+                    "name": "Persian (Farsi)",
+                    "nativeName": "فارسی"
+                }
+            ],
+            "name": "Iran (Islamic Republic of)",
+            "capital": "Tehran",
+            "region": "Asia"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "ar",
+                    "iso639_2": "ara",
+                    "name": "Arabic",
+                    "nativeName": "العربية"
+                },
+                {
+                    "iso639_1": "ku",
+                    "iso639_2": "kur",
+                    "name": "Kurdish",
+                    "nativeName": "Kurdî"
+                }
+            ],
+            "name": "Iraq",
+            "capital": "Baghdad",
+            "region": "Asia"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "ga",
+                    "iso639_2": "gle",
+                    "name": "Irish",
+                    "nativeName": "Gaeilge"
+                },
+                {
+                    "iso639_1": "en",
+                    "iso639_2": "eng",
+                    "name": "English",
+                    "nativeName": "English"
+                }
+            ],
+            "name": "Ireland",
+            "capital": "Dublin",
+            "region": "Europe"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "en",
+                    "iso639_2": "eng",
+                    "name": "English",
+                    "nativeName": "English"
+                },
+                {
+                    "iso639_1": "gv",
+                    "iso639_2": "glv",
+                    "name": "Manx",
+                    "nativeName": "Gaelg"
+                }
+            ],
+            "name": "Isle of Man",
+            "capital": "Douglas",
+            "region": "Europe"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "he",
+                    "iso639_2": "heb",
+                    "name": "Hebrew (modern)",
+                    "nativeName": "עברית"
+                },
+                {
+                    "iso639_1": "ar",
+                    "iso639_2": "ara",
+                    "name": "Arabic",
+                    "nativeName": "العربية"
+                }
+            ],
+            "name": "Israel",
+            "capital": "Jerusalem",
+            "region": "Asia"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "it",
+                    "iso639_2": "ita",
+                    "name": "Italian",
+                    "nativeName": "Italiano"
+                }
+            ],
+            "name": "Italy",
+            "capital": "Rome",
+            "region": "Europe"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "en",
+                    "iso639_2": "eng",
+                    "name": "English",
+                    "nativeName": "English"
+                }
+            ],
+            "name": "Jamaica",
+            "capital": "Kingston",
+            "region": "Americas"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "ja",
+                    "iso639_2": "jpn",
+                    "name": "Japanese",
+                    "nativeName": "日本語 (にほんご)"
+                }
+            ],
+            "name": "Japan",
+            "capital": "Tokyo",
+            "region": "Asia"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "en",
+                    "iso639_2": "eng",
+                    "name": "English",
+                    "nativeName": "English"
+                },
+                {
+                    "iso639_1": "fr",
+                    "iso639_2": "fra",
+                    "name": "French",
+                    "nativeName": "français"
+                }
+            ],
+            "name": "Jersey",
+            "capital": "Saint Helier",
+            "region": "Europe"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "ar",
+                    "iso639_2": "ara",
+                    "name": "Arabic",
+                    "nativeName": "العربية"
+                }
+            ],
+            "name": "Jordan",
+            "capital": "Amman",
+            "region": "Asia"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "kk",
+                    "iso639_2": "kaz",
+                    "name": "Kazakh",
+                    "nativeName": "қазақ тілі"
+                },
+                {
+                    "iso639_1": "ru",
+                    "iso639_2": "rus",
+                    "name": "Russian",
+                    "nativeName": "Русский"
+                }
+            ],
+            "name": "Kazakhstan",
+            "capital": "Astana",
+            "region": "Asia"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "en",
+                    "iso639_2": "eng",
+                    "name": "English",
+                    "nativeName": "English"
+                },
+                {
+                    "iso639_1": "sw",
+                    "iso639_2": "swa",
+                    "name": "Swahili",
+                    "nativeName": "Kiswahili"
+                }
+            ],
+            "name": "Kenya",
+            "capital": "Nairobi",
+            "region": "Africa"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "en",
+                    "iso639_2": "eng",
+                    "name": "English",
+                    "nativeName": "English"
+                }
+            ],
+            "name": "Kiribati",
+            "capital": "South Tarawa",
+            "region": "Oceania"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "ar",
+                    "iso639_2": "ara",
+                    "name": "Arabic",
+                    "nativeName": "العربية"
+                }
+            ],
+            "name": "Kuwait",
+            "capital": "Kuwait City",
+            "region": "Asia"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "ky",
+                    "iso639_2": "kir",
+                    "name": "Kyrgyz",
+                    "nativeName": "Кыргызча"
+                },
+                {
+                    "iso639_1": "ru",
+                    "iso639_2": "rus",
+                    "name": "Russian",
+                    "nativeName": "Русский"
+                }
+            ],
+            "name": "Kyrgyzstan",
+            "capital": "Bishkek",
+            "region": "Asia"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "lo",
+                    "iso639_2": "lao",
+                    "name": "Lao",
+                    "nativeName": "ພາສາລາວ"
+                }
+            ],
+            "name": "Lao People's Democratic Republic",
+            "capital": "Vientiane",
+            "region": "Asia"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "lv",
+                    "iso639_2": "lav",
+                    "name": "Latvian",
+                    "nativeName": "latviešu valoda"
+                }
+            ],
+            "name": "Latvia",
+            "capital": "Riga",
+            "region": "Europe"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "ar",
+                    "iso639_2": "ara",
+                    "name": "Arabic",
+                    "nativeName": "العربية"
+                },
+                {
+                    "iso639_1": "fr",
+                    "iso639_2": "fra",
+                    "name": "French",
+                    "nativeName": "français"
+                }
+            ],
+            "name": "Lebanon",
+            "capital": "Beirut",
+            "region": "Asia"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "en",
+                    "iso639_2": "eng",
+                    "name": "English",
+                    "nativeName": "English"
+                },
+                {
+                    "iso639_1": "st",
+                    "iso639_2": "sot",
+                    "name": "Southern Sotho",
+                    "nativeName": "Sesotho"
+                }
+            ],
+            "name": "Lesotho",
+            "capital": "Maseru",
+            "region": "Africa"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "en",
+                    "iso639_2": "eng",
+                    "name": "English",
+                    "nativeName": "English"
+                }
+            ],
+            "name": "Liberia",
+            "capital": "Monrovia",
+            "region": "Africa"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "ar",
+                    "iso639_2": "ara",
+                    "name": "Arabic",
+                    "nativeName": "العربية"
+                }
+            ],
+            "name": "Libya",
+            "capital": "Tripoli",
+            "region": "Africa"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "de",
+                    "iso639_2": "deu",
+                    "name": "German",
+                    "nativeName": "Deutsch"
+                }
+            ],
+            "name": "Liechtenstein",
+            "capital": "Vaduz",
+            "region": "Europe"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "lt",
+                    "iso639_2": "lit",
+                    "name": "Lithuanian",
+                    "nativeName": "lietuvių kalba"
+                }
+            ],
+            "name": "Lithuania",
+            "capital": "Vilnius",
+            "region": "Europe"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "fr",
+                    "iso639_2": "fra",
+                    "name": "French",
+                    "nativeName": "français"
+                },
+                {
+                    "iso639_1": "de",
+                    "iso639_2": "deu",
+                    "name": "German",
+                    "nativeName": "Deutsch"
+                },
+                {
+                    "iso639_1": "lb",
+                    "iso639_2": "ltz",
+                    "name": "Luxembourgish",
+                    "nativeName": "Lëtzebuergesch"
+                }
+            ],
+            "name": "Luxembourg",
+            "capital": "Luxembourg",
+            "region": "Europe"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "zh",
+                    "iso639_2": "zho",
+                    "name": "Chinese",
+                    "nativeName": "中文 (Zhōngwén)"
+                },
+                {
+                    "iso639_1": "pt",
+                    "iso639_2": "por",
+                    "name": "Portuguese",
+                    "nativeName": "Português"
+                }
+            ],
+            "name": "Macao",
+            "capital": "",
+            "region": "Asia"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "mk",
+                    "iso639_2": "mkd",
+                    "name": "Macedonian",
+                    "nativeName": "македонски јазик"
+                }
+            ],
+            "name": "Macedonia (the former Yugoslav Republic of)",
+            "capital": "Skopje",
+            "region": "Europe"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "fr",
+                    "iso639_2": "fra",
+                    "name": "French",
+                    "nativeName": "français"
+                },
+                {
+                    "iso639_1": "mg",
+                    "iso639_2": "mlg",
+                    "name": "Malagasy",
+                    "nativeName": "fiteny malagasy"
+                }
+            ],
+            "name": "Madagascar",
+            "capital": "Antananarivo",
+            "region": "Africa"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "en",
+                    "iso639_2": "eng",
+                    "name": "English",
+                    "nativeName": "English"
+                },
+                {
+                    "iso639_1": "ny",
+                    "iso639_2": "nya",
+                    "name": "Chichewa",
+                    "nativeName": "chiCheŵa"
+                }
+            ],
+            "name": "Malawi",
+            "capital": "Lilongwe",
+            "region": "Africa"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_2": "zsm",
+                    "name": "Malaysian",
+                    "nativeName": "بهاس مليسيا"
+                }
+            ],
+            "name": "Malaysia",
+            "capital": "Kuala Lumpur",
+            "region": "Asia"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "dv",
+                    "iso639_2": "div",
+                    "name": "Divehi",
+                    "nativeName": "ދިވެހި"
+                }
+            ],
+            "name": "Maldives",
+            "capital": "Malé",
+            "region": "Asia"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "fr",
+                    "iso639_2": "fra",
+                    "name": "French",
+                    "nativeName": "français"
+                }
+            ],
+            "name": "Mali",
+            "capital": "Bamako",
+            "region": "Africa"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "mt",
+                    "iso639_2": "mlt",
+                    "name": "Maltese",
+                    "nativeName": "Malti"
+                },
+                {
+                    "iso639_1": "en",
+                    "iso639_2": "eng",
+                    "name": "English",
+                    "nativeName": "English"
+                }
+            ],
+            "name": "Malta",
+            "capital": "Valletta",
+            "region": "Europe"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "en",
+                    "iso639_2": "eng",
+                    "name": "English",
+                    "nativeName": "English"
+                },
+                {
+                    "iso639_1": "mh",
+                    "iso639_2": "mah",
+                    "name": "Marshallese",
+                    "nativeName": "Kajin M̧ajeļ"
+                }
+            ],
+            "name": "Marshall Islands",
+            "capital": "Majuro",
+            "region": "Oceania"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "fr",
+                    "iso639_2": "fra",
+                    "name": "French",
+                    "nativeName": "français"
+                }
+            ],
+            "name": "Martinique",
+            "capital": "Fort-de-France",
+            "region": "Americas"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "ar",
+                    "iso639_2": "ara",
+                    "name": "Arabic",
+                    "nativeName": "العربية"
+                }
+            ],
+            "name": "Mauritania",
+            "capital": "Nouakchott",
+            "region": "Africa"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "en",
+                    "iso639_2": "eng",
+                    "name": "English",
+                    "nativeName": "English"
+                }
+            ],
+            "name": "Mauritius",
+            "capital": "Port Louis",
+            "region": "Africa"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "fr",
+                    "iso639_2": "fra",
+                    "name": "French",
+                    "nativeName": "français"
+                }
+            ],
+            "name": "Mayotte",
+            "capital": "Mamoudzou",
+            "region": "Africa"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "es",
+                    "iso639_2": "spa",
+                    "name": "Spanish",
+                    "nativeName": "Español"
+                }
+            ],
+            "name": "Mexico",
+            "capital": "Mexico City",
+            "region": "Americas"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "en",
+                    "iso639_2": "eng",
+                    "name": "English",
+                    "nativeName": "English"
+                }
+            ],
+            "name": "Micronesia (Federated States of)",
+            "capital": "Palikir",
+            "region": "Oceania"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "ro",
+                    "iso639_2": "ron",
+                    "name": "Romanian",
+                    "nativeName": "Română"
+                }
+            ],
+            "name": "Moldova (Republic of)",
+            "capital": "Chișinău",
+            "region": "Europe"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "fr",
+                    "iso639_2": "fra",
+                    "name": "French",
+                    "nativeName": "français"
+                }
+            ],
+            "name": "Monaco",
+            "capital": "Monaco",
+            "region": "Europe"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "mn",
+                    "iso639_2": "mon",
+                    "name": "Mongolian",
+                    "nativeName": "Монгол хэл"
+                }
+            ],
+            "name": "Mongolia",
+            "capital": "Ulan Bator",
+            "region": "Asia"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "sr",
+                    "iso639_2": "srp",
+                    "name": "Serbian",
+                    "nativeName": "српски језик"
+                },
+                {
+                    "iso639_1": "bs",
+                    "iso639_2": "bos",
+                    "name": "Bosnian",
+                    "nativeName": "bosanski jezik"
+                },
+                {
+                    "iso639_1": "sq",
+                    "iso639_2": "sqi",
+                    "name": "Albanian",
+                    "nativeName": "Shqip"
+                },
+                {
+                    "iso639_1": "hr",
+                    "iso639_2": "hrv",
+                    "name": "Croatian",
+                    "nativeName": "hrvatski jezik"
+                }
+            ],
+            "name": "Montenegro",
+            "capital": "Podgorica",
+            "region": "Europe"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "en",
+                    "iso639_2": "eng",
+                    "name": "English",
+                    "nativeName": "English"
+                }
+            ],
+            "name": "Montserrat",
+            "capital": "Plymouth",
+            "region": "Americas"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "ar",
+                    "iso639_2": "ara",
+                    "name": "Arabic",
+                    "nativeName": "العربية"
+                }
+            ],
+            "name": "Morocco",
+            "capital": "Rabat",
+            "region": "Africa"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "pt",
+                    "iso639_2": "por",
+                    "name": "Portuguese",
+                    "nativeName": "Português"
+                }
+            ],
+            "name": "Mozambique",
+            "capital": "Maputo",
+            "region": "Africa"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "my",
+                    "iso639_2": "mya",
+                    "name": "Burmese",
+                    "nativeName": "ဗမာစာ"
+                }
+            ],
+            "name": "Myanmar",
+            "capital": "Naypyidaw",
+            "region": "Asia"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "en",
+                    "iso639_2": "eng",
+                    "name": "English",
+                    "nativeName": "English"
+                },
+                {
+                    "iso639_1": "af",
+                    "iso639_2": "afr",
+                    "name": "Afrikaans",
+                    "nativeName": "Afrikaans"
+                }
+            ],
+            "name": "Namibia",
+            "capital": "Windhoek",
+            "region": "Africa"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "en",
+                    "iso639_2": "eng",
+                    "name": "English",
+                    "nativeName": "English"
+                },
+                {
+                    "iso639_1": "na",
+                    "iso639_2": "nau",
+                    "name": "Nauruan",
+                    "nativeName": "Dorerin Naoero"
+                }
+            ],
+            "name": "Nauru",
+            "capital": "Yaren",
+            "region": "Oceania"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "ne",
+                    "iso639_2": "nep",
+                    "name": "Nepali",
+                    "nativeName": "नेपाली"
+                }
+            ],
+            "name": "Nepal",
+            "capital": "Kathmandu",
+            "region": "Asia"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "nl",
+                    "iso639_2": "nld",
+                    "name": "Dutch",
+                    "nativeName": "Nederlands"
+                }
+            ],
+            "name": "Netherlands",
+            "capital": "Amsterdam",
+            "region": "Europe"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "fr",
+                    "iso639_2": "fra",
+                    "name": "French",
+                    "nativeName": "français"
+                }
+            ],
+            "name": "New Caledonia",
+            "capital": "Nouméa",
+            "region": "Oceania"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "en",
+                    "iso639_2": "eng",
+                    "name": "English",
+                    "nativeName": "English"
+                },
+                {
+                    "iso639_1": "mi",
+                    "iso639_2": "mri",
+                    "name": "Māori",
+                    "nativeName": "te reo Māori"
+                }
+            ],
+            "name": "New Zealand",
+            "capital": "Wellington",
+            "region": "Oceania"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "es",
+                    "iso639_2": "spa",
+                    "name": "Spanish",
+                    "nativeName": "Español"
+                }
+            ],
+            "name": "Nicaragua",
+            "capital": "Managua",
+            "region": "Americas"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "fr",
+                    "iso639_2": "fra",
+                    "name": "French",
+                    "nativeName": "français"
+                }
+            ],
+            "name": "Niger",
+            "capital": "Niamey",
+            "region": "Africa"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "en",
+                    "iso639_2": "eng",
+                    "name": "English",
+                    "nativeName": "English"
+                }
+            ],
+            "name": "Nigeria",
+            "capital": "Abuja",
+            "region": "Africa"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "en",
+                    "iso639_2": "eng",
+                    "name": "English",
+                    "nativeName": "English"
+                }
+            ],
+            "name": "Niue",
+            "capital": "Alofi",
+            "region": "Oceania"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "en",
+                    "iso639_2": "eng",
+                    "name": "English",
+                    "nativeName": "English"
+                }
+            ],
+            "name": "Norfolk Island",
+            "capital": "Kingston",
+            "region": "Oceania"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "ko",
+                    "iso639_2": "kor",
+                    "name": "Korean",
+                    "nativeName": "한국어"
+                }
+            ],
+            "name": "Korea (Democratic People's Republic of)",
+            "capital": "Pyongyang",
+            "region": "Asia"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "en",
+                    "iso639_2": "eng",
+                    "name": "English",
+                    "nativeName": "English"
+                },
+                {
+                    "iso639_1": "ch",
+                    "iso639_2": "cha",
+                    "name": "Chamorro",
+                    "nativeName": "Chamoru"
+                }
+            ],
+            "name": "Northern Mariana Islands",
+            "capital": "Saipan",
+            "region": "Oceania"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "no",
+                    "iso639_2": "nor",
+                    "name": "Norwegian",
+                    "nativeName": "Norsk"
+                },
+                {
+                    "iso639_1": "nb",
+                    "iso639_2": "nob",
+                    "name": "Norwegian Bokmål",
+                    "nativeName": "Norsk bokmål"
+                },
+                {
+                    "iso639_1": "nn",
+                    "iso639_2": "nno",
+                    "name": "Norwegian Nynorsk",
+                    "nativeName": "Norsk nynorsk"
+                }
+            ],
+            "name": "Norway",
+            "capital": "Oslo",
+            "region": "Europe"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "ar",
+                    "iso639_2": "ara",
+                    "name": "Arabic",
+                    "nativeName": "العربية"
+                }
+            ],
+            "name": "Oman",
+            "capital": "Muscat",
+            "region": "Asia"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "en",
+                    "iso639_2": "eng",
+                    "name": "English",
+                    "nativeName": "English"
+                },
+                {
+                    "iso639_1": "ur",
+                    "iso639_2": "urd",
+                    "name": "Urdu",
+                    "nativeName": "اردو"
+                }
+            ],
+            "name": "Pakistan",
+            "capital": "Islamabad",
+            "region": "Asia"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "en",
+                    "iso639_2": "eng",
+                    "name": "English",
+                    "nativeName": "English"
+                }
+            ],
+            "name": "Palau",
+            "capital": "Ngerulmud",
+            "region": "Oceania"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "ar",
+                    "iso639_2": "ara",
+                    "name": "Arabic",
+                    "nativeName": "العربية"
+                }
+            ],
+            "name": "Palestine, State of",
+            "capital": "Ramallah",
+            "region": "Asia"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "es",
+                    "iso639_2": "spa",
+                    "name": "Spanish",
+                    "nativeName": "Español"
+                }
+            ],
+            "name": "Panama",
+            "capital": "Panama City",
+            "region": "Americas"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "en",
+                    "iso639_2": "eng",
+                    "name": "English",
+                    "nativeName": "English"
+                }
+            ],
+            "name": "Papua New Guinea",
+            "capital": "Port Moresby",
+            "region": "Oceania"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "es",
+                    "iso639_2": "spa",
+                    "name": "Spanish",
+                    "nativeName": "Español"
+                },
+                {
+                    "iso639_1": "gn",
+                    "iso639_2": "grn",
+                    "name": "Guaraní",
+                    "nativeName": "Avañe'ẽ"
+                }
+            ],
+            "name": "Paraguay",
+            "capital": "Asunción",
+            "region": "Americas"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "es",
+                    "iso639_2": "spa",
+                    "name": "Spanish",
+                    "nativeName": "Español"
+                }
+            ],
+            "name": "Peru",
+            "capital": "Lima",
+            "region": "Americas"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "en",
+                    "iso639_2": "eng",
+                    "name": "English",
+                    "nativeName": "English"
+                }
+            ],
+            "name": "Philippines",
+            "capital": "Manila",
+            "region": "Asia"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "en",
+                    "iso639_2": "eng",
+                    "name": "English",
+                    "nativeName": "English"
+                }
+            ],
+            "name": "Pitcairn",
+            "capital": "Adamstown",
+            "region": "Oceania"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "pl",
+                    "iso639_2": "pol",
+                    "name": "Polish",
+                    "nativeName": "język polski"
+                }
+            ],
+            "name": "Poland",
+            "capital": "Warsaw",
+            "region": "Europe"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "pt",
+                    "iso639_2": "por",
+                    "name": "Portuguese",
+                    "nativeName": "Português"
+                }
+            ],
+            "name": "Portugal",
+            "capital": "Lisbon",
+            "region": "Europe"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "es",
+                    "iso639_2": "spa",
+                    "name": "Spanish",
+                    "nativeName": "Español"
+                },
+                {
+                    "iso639_1": "en",
+                    "iso639_2": "eng",
+                    "name": "English",
+                    "nativeName": "English"
+                }
+            ],
+            "name": "Puerto Rico",
+            "capital": "San Juan",
+            "region": "Americas"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "ar",
+                    "iso639_2": "ara",
+                    "name": "Arabic",
+                    "nativeName": "العربية"
+                }
+            ],
+            "name": "Qatar",
+            "capital": "Doha",
+            "region": "Asia"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "sq",
+                    "iso639_2": "sqi",
+                    "name": "Albanian",
+                    "nativeName": "Shqip"
+                },
+                {
+                    "iso639_1": "sr",
+                    "iso639_2": "srp",
+                    "name": "Serbian",
+                    "nativeName": "српски језик"
+                }
+            ],
+            "name": "Republic of Kosovo",
+            "capital": "Pristina",
+            "region": "Europe"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "fr",
+                    "iso639_2": "fra",
+                    "name": "French",
+                    "nativeName": "français"
+                }
+            ],
+            "name": "Réunion",
+            "capital": "Saint-Denis",
+            "region": "Africa"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "ro",
+                    "iso639_2": "ron",
+                    "name": "Romanian",
+                    "nativeName": "Română"
+                }
+            ],
+            "name": "Romania",
+            "capital": "Bucharest",
+            "region": "Europe"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "ru",
+                    "iso639_2": "rus",
+                    "name": "Russian",
+                    "nativeName": "Русский"
+                }
+            ],
+            "name": "Russian Federation",
+            "capital": "Moscow",
+            "region": "Europe"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "rw",
+                    "iso639_2": "kin",
+                    "name": "Kinyarwanda",
+                    "nativeName": "Ikinyarwanda"
+                },
+                {
+                    "iso639_1": "en",
+                    "iso639_2": "eng",
+                    "name": "English",
+                    "nativeName": "English"
+                },
+                {
+                    "iso639_1": "fr",
+                    "iso639_2": "fra",
+                    "name": "French",
+                    "nativeName": "français"
+                }
+            ],
+            "name": "Rwanda",
+            "capital": "Kigali",
+            "region": "Africa"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "fr",
+                    "iso639_2": "fra",
+                    "name": "French",
+                    "nativeName": "français"
+                }
+            ],
+            "name": "Saint Barthélemy",
+            "capital": "Gustavia",
+            "region": "Americas"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "en",
+                    "iso639_2": "eng",
+                    "name": "English",
+                    "nativeName": "English"
+                }
+            ],
+            "name": "Saint Helena, Ascension and Tristan da Cunha",
+            "capital": "Jamestown",
+            "region": "Africa"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "en",
+                    "iso639_2": "eng",
+                    "name": "English",
+                    "nativeName": "English"
+                }
+            ],
+            "name": "Saint Kitts and Nevis",
+            "capital": "Basseterre",
+            "region": "Americas"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "en",
+                    "iso639_2": "eng",
+                    "name": "English",
+                    "nativeName": "English"
+                }
+            ],
+            "name": "Saint Lucia",
+            "capital": "Castries",
+            "region": "Americas"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "en",
+                    "iso639_2": "eng",
+                    "name": "English",
+                    "nativeName": "English"
+                },
+                {
+                    "iso639_1": "fr",
+                    "iso639_2": "fra",
+                    "name": "French",
+                    "nativeName": "français"
+                },
+                {
+                    "iso639_1": "nl",
+                    "iso639_2": "nld",
+                    "name": "Dutch",
+                    "nativeName": "Nederlands"
+                }
+            ],
+            "name": "Saint Martin (French part)",
+            "capital": "Marigot",
+            "region": "Americas"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "fr",
+                    "iso639_2": "fra",
+                    "name": "French",
+                    "nativeName": "français"
+                }
+            ],
+            "name": "Saint Pierre and Miquelon",
+            "capital": "Saint-Pierre",
+            "region": "Americas"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "en",
+                    "iso639_2": "eng",
+                    "name": "English",
+                    "nativeName": "English"
+                }
+            ],
+            "name": "Saint Vincent and the Grenadines",
+            "capital": "Kingstown",
+            "region": "Americas"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "sm",
+                    "iso639_2": "smo",
+                    "name": "Samoan",
+                    "nativeName": "gagana fa'a Samoa"
+                },
+                {
+                    "iso639_1": "en",
+                    "iso639_2": "eng",
+                    "name": "English",
+                    "nativeName": "English"
+                }
+            ],
+            "name": "Samoa",
+            "capital": "Apia",
+            "region": "Oceania"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "it",
+                    "iso639_2": "ita",
+                    "name": "Italian",
+                    "nativeName": "Italiano"
+                }
+            ],
+            "name": "San Marino",
+            "capital": "City of San Marino",
+            "region": "Europe"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "pt",
+                    "iso639_2": "por",
+                    "name": "Portuguese",
+                    "nativeName": "Português"
+                }
+            ],
+            "name": "Sao Tome and Principe",
+            "capital": "São Tomé",
+            "region": "Africa"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "ar",
+                    "iso639_2": "ara",
+                    "name": "Arabic",
+                    "nativeName": "العربية"
+                }
+            ],
+            "name": "Saudi Arabia",
+            "capital": "Riyadh",
+            "region": "Asia"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "fr",
+                    "iso639_2": "fra",
+                    "name": "French",
+                    "nativeName": "français"
+                }
+            ],
+            "name": "Senegal",
+            "capital": "Dakar",
+            "region": "Africa"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "sr",
+                    "iso639_2": "srp",
+                    "name": "Serbian",
+                    "nativeName": "српски језик"
+                }
+            ],
+            "name": "Serbia",
+            "capital": "Belgrade",
+            "region": "Europe"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "fr",
+                    "iso639_2": "fra",
+                    "name": "French",
+                    "nativeName": "français"
+                },
+                {
+                    "iso639_1": "en",
+                    "iso639_2": "eng",
+                    "name": "English",
+                    "nativeName": "English"
+                }
+            ],
+            "name": "Seychelles",
+            "capital": "Victoria",
+            "region": "Africa"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "en",
+                    "iso639_2": "eng",
+                    "name": "English",
+                    "nativeName": "English"
+                }
+            ],
+            "name": "Sierra Leone",
+            "capital": "Freetown",
+            "region": "Africa"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "en",
+                    "iso639_2": "eng",
+                    "name": "English",
+                    "nativeName": "English"
+                },
+                {
+                    "iso639_1": "ms",
+                    "iso639_2": "msa",
+                    "name": "Malay",
+                    "nativeName": "bahasa Melayu"
+                },
+                {
+                    "iso639_1": "ta",
+                    "iso639_2": "tam",
+                    "name": "Tamil",
+                    "nativeName": "தமிழ்"
+                },
+                {
+                    "iso639_1": "zh",
+                    "iso639_2": "zho",
+                    "name": "Chinese",
+                    "nativeName": "中文 (Zhōngwén)"
+                }
+            ],
+            "name": "Singapore",
+            "capital": "Singapore",
+            "region": "Asia"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "nl",
+                    "iso639_2": "nld",
+                    "name": "Dutch",
+                    "nativeName": "Nederlands"
+                },
+                {
+                    "iso639_1": "en",
+                    "iso639_2": "eng",
+                    "name": "English",
+                    "nativeName": "English"
+                }
+            ],
+            "name": "Sint Maarten (Dutch part)",
+            "capital": "Philipsburg",
+            "region": "Americas"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "sk",
+                    "iso639_2": "slk",
+                    "name": "Slovak",
+                    "nativeName": "slovenčina"
+                }
+            ],
+            "name": "Slovakia",
+            "capital": "Bratislava",
+            "region": "Europe"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "sl",
+                    "iso639_2": "slv",
+                    "name": "Slovene",
+                    "nativeName": "slovenski jezik"
+                }
+            ],
+            "name": "Slovenia",
+            "capital": "Ljubljana",
+            "region": "Europe"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "en",
+                    "iso639_2": "eng",
+                    "name": "English",
+                    "nativeName": "English"
+                }
+            ],
+            "name": "Solomon Islands",
+            "capital": "Honiara",
+            "region": "Oceania"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "so",
+                    "iso639_2": "som",
+                    "name": "Somali",
+                    "nativeName": "Soomaaliga"
+                },
+                {
+                    "iso639_1": "ar",
+                    "iso639_2": "ara",
+                    "name": "Arabic",
+                    "nativeName": "العربية"
+                }
+            ],
+            "name": "Somalia",
+            "capital": "Mogadishu",
+            "region": "Africa"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "af",
+                    "iso639_2": "afr",
+                    "name": "Afrikaans",
+                    "nativeName": "Afrikaans"
+                },
+                {
+                    "iso639_1": "en",
+                    "iso639_2": "eng",
+                    "name": "English",
+                    "nativeName": "English"
+                },
+                {
+                    "iso639_1": "nr",
+                    "iso639_2": "nbl",
+                    "name": "Southern Ndebele",
+                    "nativeName": "isiNdebele"
+                },
+                {
+                    "iso639_1": "st",
+                    "iso639_2": "sot",
+                    "name": "Southern Sotho",
+                    "nativeName": "Sesotho"
+                },
+                {
+                    "iso639_1": "ss",
+                    "iso639_2": "ssw",
+                    "name": "Swati",
+                    "nativeName": "SiSwati"
+                },
+                {
+                    "iso639_1": "tn",
+                    "iso639_2": "tsn",
+                    "name": "Tswana",
+                    "nativeName": "Setswana"
+                },
+                {
+                    "iso639_1": "ts",
+                    "iso639_2": "tso",
+                    "name": "Tsonga",
+                    "nativeName": "Xitsonga"
+                },
+                {
+                    "iso639_1": "ve",
+                    "iso639_2": "ven",
+                    "name": "Venda",
+                    "nativeName": "Tshivenḓa"
+                },
+                {
+                    "iso639_1": "xh",
+                    "iso639_2": "xho",
+                    "name": "Xhosa",
+                    "nativeName": "isiXhosa"
+                },
+                {
+                    "iso639_1": "zu",
+                    "iso639_2": "zul",
+                    "name": "Zulu",
+                    "nativeName": "isiZulu"
+                }
+            ],
+            "name": "South Africa",
+            "capital": "Pretoria",
+            "region": "Africa"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "en",
+                    "iso639_2": "eng",
+                    "name": "English",
+                    "nativeName": "English"
+                }
+            ],
+            "name": "South Georgia and the South Sandwich Islands",
+            "capital": "King Edward Point",
+            "region": "Americas"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "ko",
+                    "iso639_2": "kor",
+                    "name": "Korean",
+                    "nativeName": "한국어"
+                }
+            ],
+            "name": "Korea (Republic of)",
+            "capital": "Seoul",
+            "region": "Asia"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "en",
+                    "iso639_2": "eng",
+                    "name": "English",
+                    "nativeName": "English"
+                }
+            ],
+            "name": "South Sudan",
+            "capital": "Juba",
+            "region": "Africa"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "es",
+                    "iso639_2": "spa",
+                    "name": "Spanish",
+                    "nativeName": "Español"
+                }
+            ],
+            "name": "Spain",
+            "capital": "Madrid",
+            "region": "Europe"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "si",
+                    "iso639_2": "sin",
+                    "name": "Sinhalese",
+                    "nativeName": "සිංහල"
+                },
+                {
+                    "iso639_1": "ta",
+                    "iso639_2": "tam",
+                    "name": "Tamil",
+                    "nativeName": "தமிழ்"
+                }
+            ],
+            "name": "Sri Lanka",
+            "capital": "Colombo",
+            "region": "Asia"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "ar",
+                    "iso639_2": "ara",
+                    "name": "Arabic",
+                    "nativeName": "العربية"
+                },
+                {
+                    "iso639_1": "en",
+                    "iso639_2": "eng",
+                    "name": "English",
+                    "nativeName": "English"
+                }
+            ],
+            "name": "Sudan",
+            "capital": "Khartoum",
+            "region": "Africa"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "nl",
+                    "iso639_2": "nld",
+                    "name": "Dutch",
+                    "nativeName": "Nederlands"
+                }
+            ],
+            "name": "Suriname",
+            "capital": "Paramaribo",
+            "region": "Americas"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "no",
+                    "iso639_2": "nor",
+                    "name": "Norwegian",
+                    "nativeName": "Norsk"
+                }
+            ],
+            "name": "Svalbard and Jan Mayen",
+            "capital": "Longyearbyen",
+            "region": "Europe"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "en",
+                    "iso639_2": "eng",
+                    "name": "English",
+                    "nativeName": "English"
+                },
+                {
+                    "iso639_1": "ss",
+                    "iso639_2": "ssw",
+                    "name": "Swati",
+                    "nativeName": "SiSwati"
+                }
+            ],
+            "name": "Swaziland",
+            "capital": "Lobamba",
+            "region": "Africa"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "sv",
+                    "iso639_2": "swe",
+                    "name": "Swedish",
+                    "nativeName": "svenska"
+                }
+            ],
+            "name": "Sweden",
+            "capital": "Stockholm",
+            "region": "Europe"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "de",
+                    "iso639_2": "deu",
+                    "name": "German",
+                    "nativeName": "Deutsch"
+                },
+                {
+                    "iso639_1": "fr",
+                    "iso639_2": "fra",
+                    "name": "French",
+                    "nativeName": "français"
+                },
+                {
+                    "iso639_1": "it",
+                    "iso639_2": "ita",
+                    "name": "Italian",
+                    "nativeName": "Italiano"
+                }
+            ],
+            "name": "Switzerland",
+            "capital": "Bern",
+            "region": "Europe"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "ar",
+                    "iso639_2": "ara",
+                    "name": "Arabic",
+                    "nativeName": "العربية"
+                }
+            ],
+            "name": "Syrian Arab Republic",
+            "capital": "Damascus",
+            "region": "Asia"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "zh",
+                    "iso639_2": "zho",
+                    "name": "Chinese",
+                    "nativeName": "中文 (Zhōngwén)"
+                }
+            ],
+            "name": "Taiwan",
+            "capital": "Taipei",
+            "region": "Asia"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "tg",
+                    "iso639_2": "tgk",
+                    "name": "Tajik",
+                    "nativeName": "тоҷикӣ"
+                },
+                {
+                    "iso639_1": "ru",
+                    "iso639_2": "rus",
+                    "name": "Russian",
+                    "nativeName": "Русский"
+                }
+            ],
+            "name": "Tajikistan",
+            "capital": "Dushanbe",
+            "region": "Asia"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "sw",
+                    "iso639_2": "swa",
+                    "name": "Swahili",
+                    "nativeName": "Kiswahili"
+                },
+                {
+                    "iso639_1": "en",
+                    "iso639_2": "eng",
+                    "name": "English",
+                    "nativeName": "English"
+                }
+            ],
+            "name": "Tanzania, United Republic of",
+            "capital": "Dodoma",
+            "region": "Africa"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "th",
+                    "iso639_2": "tha",
+                    "name": "Thai",
+                    "nativeName": "ไทย"
+                }
+            ],
+            "name": "Thailand",
+            "capital": "Bangkok",
+            "region": "Asia"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "pt",
+                    "iso639_2": "por",
+                    "name": "Portuguese",
+                    "nativeName": "Português"
+                }
+            ],
+            "name": "Timor-Leste",
+            "capital": "Dili",
+            "region": "Asia"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "fr",
+                    "iso639_2": "fra",
+                    "name": "French",
+                    "nativeName": "français"
+                }
+            ],
+            "name": "Togo",
+            "capital": "Lomé",
+            "region": "Africa"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "en",
+                    "iso639_2": "eng",
+                    "name": "English",
+                    "nativeName": "English"
+                }
+            ],
+            "name": "Tokelau",
+            "capital": "Fakaofo",
+            "region": "Oceania"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "en",
+                    "iso639_2": "eng",
+                    "name": "English",
+                    "nativeName": "English"
+                },
+                {
+                    "iso639_1": "to",
+                    "iso639_2": "ton",
+                    "name": "Tonga (Tonga Islands)",
+                    "nativeName": "faka Tonga"
+                }
+            ],
+            "name": "Tonga",
+            "capital": "Nuku'alofa",
+            "region": "Oceania"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "en",
+                    "iso639_2": "eng",
+                    "name": "English",
+                    "nativeName": "English"
+                }
+            ],
+            "name": "Trinidad and Tobago",
+            "capital": "Port of Spain",
+            "region": "Americas"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "ar",
+                    "iso639_2": "ara",
+                    "name": "Arabic",
+                    "nativeName": "العربية"
+                }
+            ],
+            "name": "Tunisia",
+            "capital": "Tunis",
+            "region": "Africa"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "tr",
+                    "iso639_2": "tur",
+                    "name": "Turkish",
+                    "nativeName": "Türkçe"
+                }
+            ],
+            "name": "Turkey",
+            "capital": "Ankara",
+            "region": "Asia"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "tk",
+                    "iso639_2": "tuk",
+                    "name": "Turkmen",
+                    "nativeName": "Türkmen"
+                },
+                {
+                    "iso639_1": "ru",
+                    "iso639_2": "rus",
+                    "name": "Russian",
+                    "nativeName": "Русский"
+                }
+            ],
+            "name": "Turkmenistan",
+            "capital": "Ashgabat",
+            "region": "Asia"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "en",
+                    "iso639_2": "eng",
+                    "name": "English",
+                    "nativeName": "English"
+                }
+            ],
+            "name": "Turks and Caicos Islands",
+            "capital": "Cockburn Town",
+            "region": "Americas"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "en",
+                    "iso639_2": "eng",
+                    "name": "English",
+                    "nativeName": "English"
+                }
+            ],
+            "name": "Tuvalu",
+            "capital": "Funafuti",
+            "region": "Oceania"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "en",
+                    "iso639_2": "eng",
+                    "name": "English",
+                    "nativeName": "English"
+                },
+                {
+                    "iso639_1": "sw",
+                    "iso639_2": "swa",
+                    "name": "Swahili",
+                    "nativeName": "Kiswahili"
+                }
+            ],
+            "name": "Uganda",
+            "capital": "Kampala",
+            "region": "Africa"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "uk",
+                    "iso639_2": "ukr",
+                    "name": "Ukrainian",
+                    "nativeName": "Українська"
+                }
+            ],
+            "name": "Ukraine",
+            "capital": "Kiev",
+            "region": "Europe"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "ar",
+                    "iso639_2": "ara",
+                    "name": "Arabic",
+                    "nativeName": "العربية"
+                }
+            ],
+            "name": "United Arab Emirates",
+            "capital": "Abu Dhabi",
+            "region": "Asia"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "en",
+                    "iso639_2": "eng",
+                    "name": "English",
+                    "nativeName": "English"
+                }
+            ],
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "capital": "London",
+            "region": "Europe"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "en",
+                    "iso639_2": "eng",
+                    "name": "English",
+                    "nativeName": "English"
+                }
+            ],
+            "name": "United States of America",
+            "capital": "Washington, D.C.",
+            "region": "Americas"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "es",
+                    "iso639_2": "spa",
+                    "name": "Spanish",
+                    "nativeName": "Español"
+                }
+            ],
+            "name": "Uruguay",
+            "capital": "Montevideo",
+            "region": "Americas"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "uz",
+                    "iso639_2": "uzb",
+                    "name": "Uzbek",
+                    "nativeName": "Oʻzbek"
+                },
+                {
+                    "iso639_1": "ru",
+                    "iso639_2": "rus",
+                    "name": "Russian",
+                    "nativeName": "Русский"
+                }
+            ],
+            "name": "Uzbekistan",
+            "capital": "Tashkent",
+            "region": "Asia"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "bi",
+                    "iso639_2": "bis",
+                    "name": "Bislama",
+                    "nativeName": "Bislama"
+                },
+                {
+                    "iso639_1": "en",
+                    "iso639_2": "eng",
+                    "name": "English",
+                    "nativeName": "English"
+                },
+                {
+                    "iso639_1": "fr",
+                    "iso639_2": "fra",
+                    "name": "French",
+                    "nativeName": "français"
+                }
+            ],
+            "name": "Vanuatu",
+            "capital": "Port Vila",
+            "region": "Oceania"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "es",
+                    "iso639_2": "spa",
+                    "name": "Spanish",
+                    "nativeName": "Español"
+                }
+            ],
+            "name": "Venezuela (Bolivarian Republic of)",
+            "capital": "Caracas",
+            "region": "Americas"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "vi",
+                    "iso639_2": "vie",
+                    "name": "Vietnamese",
+                    "nativeName": "Tiếng Việt"
+                }
+            ],
+            "name": "Viet Nam",
+            "capital": "Hanoi",
+            "region": "Asia"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "fr",
+                    "iso639_2": "fra",
+                    "name": "French",
+                    "nativeName": "français"
+                }
+            ],
+            "name": "Wallis and Futuna",
+            "capital": "Mata-Utu",
+            "region": "Oceania"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "es",
+                    "iso639_2": "spa",
+                    "name": "Spanish",
+                    "nativeName": "Español"
+                }
+            ],
+            "name": "Western Sahara",
+            "capital": "El Aaiún",
+            "region": "Africa"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "ar",
+                    "iso639_2": "ara",
+                    "name": "Arabic",
+                    "nativeName": "العربية"
+                }
+            ],
+            "name": "Yemen",
+            "capital": "Sana'a",
+            "region": "Asia"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "en",
+                    "iso639_2": "eng",
+                    "name": "English",
+                    "nativeName": "English"
+                }
+            ],
+            "name": "Zambia",
+            "capital": "Lusaka",
+            "region": "Africa"
+        },
+        {
+            "languages": [
+                {
+                    "iso639_1": "en",
+                    "iso639_2": "eng",
+                    "name": "English",
+                    "nativeName": "English"
+                },
+                {
+                    "iso639_1": "sn",
+                    "iso639_2": "sna",
+                    "name": "Shona",
+                    "nativeName": "chiShona"
+                },
+                {
+                    "iso639_1": "nd",
+                    "iso639_2": "nde",
+                    "name": "Northern Ndebele",
+                    "nativeName": "isiNdebele"
+                }
+            ],
+            "name": "Zimbabwe",
+            "capital": "Harare",
+            "region": "Africa"
+        }
+    ]
+}

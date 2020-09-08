@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title>codyPrashant | JSOn server</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<link href="css/style.css" rel='stylesheet' type='text/css' />
+	<link href="css/homestyle2.css" rel='stylesheet' type='text/css' />
+
+</head>
+
+<body>
+	<div class="bottom-grid">
+		<div class="links">
+			<ul class="links-unordered-list">
+				<li class="">
+					<a href="index.html" class="">Home</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<h3>JSON Server </h3>
+
+	<div class="transbox">
+		<!-- form starts here -->
+		<p>Hi, I am here availble to serve you JSON server of all countries. You can use by using below mentioned
+			filtered endpoints for your usage.
+			If you found any error or requires new feature please raise an issue on my github account.
+		</p>
+		<dl>
+			<dd>Get all Countries with their various details like Name, Capital, Region, and Languages :<br />
+				<a href="https://json-countries-api.herokuapp.com/countries" target="_blank"
+					class="" style ="color: red;font-size: 14px;padding-left:2em">https://json-countries-api.herokuapp.com/countries</a></dd>
+			<dd>Get Country record filtered with their Name :<br />
+				<a href="https://json-countries-api.herokuapp.com/countries?name=India" target="_blank"
+					class="" style ="color: red;font-size: 14px;padding-left:2em">https://json-countries-api.herokuapp.com/countries?name=India</a></dd>
+
+			<dd>Get multiple Countries filtered with their Name :<br />
+				<a href="https://json-countries-api.herokuapp.com/countries?name=India&name=Sudan" target="_blank"
+					class="" style ="color: red;font-size: 14px;padding-left:2em">https://json-countries-api.herokuapp.com/countries?name=India&name=Sudan</a></dd>
+
+			<dd>Get Country record filtered with their region :<br />
+				<a href="https://json-countries-api.herokuapp.com/countries?region=Asia" target="_blank"
+					class="" style ="color: red;font-size: 14px;padding-left:2em">https://json-countries-api.herokuapp.com/countries?region=Asia</a></dd>
+
+			<dd>Get Country record filtered with their region and name :<br />
+				<a href="https://json-countries-api.herokuapp.com/countries?region=Africa&name=Sudan" target="_blank"
+					class="" style ="color: red;font-size: 14px;padding-left:2em">https://json-countries-api.herokuapp.com/countries?region=Africa&name=Sudan</a></dd>
+
+			<dd>Get all Countries using pagination :<br />
+				<a href="https://json-countries-api.herokuapp.com/countries?_page=1&_limit=2" target="_blank"
+					class="" style ="color: red;font-size: 14px;padding-left:2em">https://json-countries-api.herokuapp.com/countries?_page=1&_limit=2</a></dd>
+
+			<dd>Get all Countries record by sorting name :<br />
+				<a href="https://json-countries-api.herokuapp.com/countries?_sort=name&_order=asc" target="_blank"
+					class="" style ="color: red;font-size: 14px;padding-left:2em">https://json-countries-api.herokuapp.com/countries?_sort=name&_order=asc</a></dd>
+
+			<dd>Get the Country record by search the string in records:<br />
+				<a href="https://json-countries-api.herokuapp.com/countries?q=Afghanistan" target="_blank"
+					class="" style ="color: red;font-size: 14px;padding-left:2em">https://json-countries-api.herokuapp.com/countries?q=Afghanistan</a></dd>
+
+		</dl>
+
+	</div>
+	<footer class="mastfoot mt-auto">
+		<div class="inner">
+		  <p style="color:white;">Designed by Prashant Gupta(<a href="https://github.com/codyprashant" style="color:red">@codyPrashant</a>)</p>
+		</div>
+	  </footer>
+
+</body>
+
+</html>
