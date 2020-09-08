@@ -1,0 +1,81 @@
+<link href="../css/bootstrap.min.css" rel="stylesheet" >
+<link href="../css/sticky-footer-navbar.css" rel="stylesheet" >
+
+<header>
+  <!-- Fixed navbar -->
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <a class="navbar-brand" href="#">GUVI | codyPrashant</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item ">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Javascript</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+<!-- Begin page content -->
+<main role="main" class="flex-shrink-0">
+  <div class="container-fluid">
+    <h1 class="mt-5">JavaScript: Daily Assignments -> Day 3</h1>
+    <div class="row row-cols-1 row-cols-md-2">
+    <div class="card" style= "max-width: 100%;">
+        <div class="card-header">
+            <h4> CORS API </h4>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Reading data from CORS based API using Domains DB API from <a href="https://api.domainsdb.info/v1/" target= "_blank"> https://api.domainsdb.info/v1/</a></h5>
+          <p class="card-text">Please enter domain name and click on fetch data to receive the data.</p>
+          <p class="card-text">
+            
+                Get all details of entered domain
+                <div class="form-group">
+                  <input type="text" class="form-control" id="domainName">
+                </div>
+                
+                <button type="submit" class="btn btn-primary mb-2" onclick="getDomainInfo('fetchedData', 'domainName');">Get Details</button>
+              
+        </p>
+       
+        </div>
+      </div>
+      <div class="card" style= "max-width: 100%;">
+        <div class="table-responsive">
+      <table class="table  table-borderless">
+        <thead>
+          <tr>
+            <th>Received Data</th>
+          </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>
+                <pre  id='fetchedData'>
+
+                </pre>
+            </td>
+        </tr>  
+        </tbody>
+      </table> 
+    </div>
+    </div>
+    </div>
+
+  </div>
+</main>
+
+<footer class="footer fixed-bottom mt-auto py-3">
+  <div class="container-fluid">
+    <span class="text-muted">Designed with <i class="fas fa-heart" style="color:red"></i> by Prashant Gupta(<a href="https://github.com/codyprashant" style="color: crimson;">@codyPrashant</a>)</span>
+  </div>
+</footer>
+<script src="../js/jquery-3.5.1.slim.min.js"></script>
+<script src="../js/bootstrap.bundle.js"></script>
+<script src="./js/getDomainAPI.js"></script>
