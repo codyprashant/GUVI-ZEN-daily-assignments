@@ -9,6 +9,9 @@ function getDomainInfo(id, param){
             document.getElementById(id).innerHTML = JSON.stringify(data, undefined, 2);
         }
       };
+      request.onerror = function() {
+        document.getElementById(id).innerHTML = "Something went wrong..."
+      };
     request.open('GET',url_string , true) 
     request.send();
     return false;
