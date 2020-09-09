@@ -1,0 +1,881 @@
+<link href="../../css/bootstrap.css" rel="stylesheet">
+<link href="../../css/sticky-footer-navbar.css" rel="stylesheet">
+
+<header>
+  <!-- Fixed navbar -->
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <a class="navbar-brand" href="#">GUVI | codyPrashant</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+      aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item ">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Javascript</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+<!-- Begin page content -->
+<main role="main" class="flex-shrink-0">
+  <div class="container-fluid">
+    <h1 class="mt-5">JavaScript: Daily Assignments -> Day 4</h1>
+    <div class="card" style="max-width: 100%;">
+      <div class="card-header">
+        <h4> JSON Tasks: Postedg all the solutions for the problems posted by Arun from Guvi on this <a
+            href="https://medium.com/@reach2arunprakash/guvi-zen-code-sprint-javascript-practice-problems-in-json-objects-and-list-49ac3356a8a5"
+            target="_blank"> blog on medium</a>. </h4>
+      </div>
+      <div class="card-body">
+        <div class="accordion" id="tasks">
+          <div class="card" style="max-width: 100%;">
+            <div class="card-header" id="headingOne">
+              <h5 class="mb-0">
+                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
+                  aria-expanded="true" aria-controls="collapseOne">
+                  Problem 0 : Part A (15 mins)
+                </button>
+              </h5>
+            </div>
+
+            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#tasks">
+              <div class="card-body">
+                <p class="card-text">Fluffy sorry, Fluffyy is my fav cat and it has 2 catFriends
+                  Write a code to get the below details of Fluffyy so that
+                  I can take him to vet.</p>
+                <p class="card-text">
+                <pre>
+                          <code id = "problem1">
+    var cat = {
+      name: 'Fluffy',
+      activities: ['play', 'eat cat food'],
+      catFriends: [
+        {
+          name: 'bar',
+          activities: ['be grumpy', 'eat bread omblet'],
+          weight: 8,
+          furcolor: 'white'
+        }, 
+        {
+          name: 'foo',
+          activities: ['sleep', 'pre-sleep naps'],
+          weight: 3
+        }
+      ]
+    };
+    console.log(cat);
+                          </code>
+                        </pre>
+                </p>
+                <h5 class="card-title">Solutions:</h5>
+                <p class="card-text"><b> 1. Add height and weight to Fluffy</b></p>
+                <p class="card-text">
+                <pre>
+                  <code>
+    cat.height = 30;
+    cat.weight = 20;
+                  </code>
+                </pre>
+                </p>
+
+                <p class="card-text"><b> 2. Fluffy name is spelled wrongly. Update it to Fluffyy</b></p>
+                <p class="card-text">
+                <pre>
+                  <code>
+    cat.name = "Fluffyy";
+                  </code>
+                </pre>
+                </p>
+
+                <p class="card-text"><b> 3. List all the activities of Fluffyy’s catFriends.</b></p>
+                <p class="card-text">
+                <pre>
+                  <code>
+    for(i =0; i< cat.catFriends.length; i++){
+      for(j =0; j< cat.catFriends[i].activities.length; j++){
+        console.log(cat.catFriends[i].activities[j]);
+      }
+    }
+                  </code>
+                </pre>
+                </p>
+
+                <p class="card-text"><b> 4. Print the catFriends names.</b></p>
+                <p class="card-text">
+                <pre>
+                  <code>
+    for(i =0; i< cat.catFriends.length; i++){
+      console.log(cat.catFriends[i].name);
+    }
+                  </code>
+                </pre>
+                </p>
+
+                <p class="card-text"><b> 5. Print the total weight of catFriends</b></p>
+                <p class="card-text">
+                <pre>
+                  <code>
+    var totalweight = 0;
+
+    for(i =0; i< cat.catFriends.length; i++){
+      totalweight += cat.catFriends[i].weight;
+    }
+
+    console.log(totalweight);
+                  </code>
+                </pre>
+                </p>
+
+                <p class="card-text"><b> 6. Print the total activities of all cats (op:6)</b></p>
+                <p class="card-text">
+                <pre>
+                  <code>
+    for (key in cat) {
+      if (key == "activities") {
+        if (cat[key].length > 1) {
+          for (i = 0; i < cat[key].length; i++) {
+            console.log(cat[key][i])
+          }
+        }
+      }
+      if (key == "catFriends") {
+        for (j = 0; j < cat[key].length; j++) {
+          for (k = 0; k < cat[key][j].activities.length; k++) {
+            console.log(cat[key][j].activities[k]);
+          }
+        }
+      }
+    }
+                  </code>
+                </pre>
+                </p>
+
+                <p class="card-text"><b> 7. Add 2 more activities to bar & foo cats</b></p>
+                <p class="card-text">
+                <pre>
+                  <code>
+    var newActivities = ['jumping', 'running all day'];
+    cat.catFriends[0].activities.push(...newActivities);
+    cat.catFriends[1].activities.push(...newActivities);
+                  </code>
+                </pre>
+                </p>
+
+                <p class="card-text"><b> 8. Update the fur color of bar</b></p>
+                <p class="card-text">
+                <pre>
+                  <code>
+    cat.catFriends[0].furcolor = "red"
+                  </code>
+                </pre>
+                </p>
+
+
+              </div>
+            </div>
+          </div>
+          <div class="card" style="max-width: 100%;">
+            <div class="card-header" id="headingTwo">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo"
+                  aria-expanded="false" aria-controls="collapseTwo">
+                  Problem 0 : Part B (15 mins):
+                </button>
+              </h5>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#tasks">
+              <div class="card-body">
+                <p class="card-text">Above is some information about my car. As you can see, I am not the best driver.</p>
+                <p class="card-text">I have caused a few accidents. Please update this driving record so that I can feel better about my driving skills.</p>
+                <p class="card-text">
+                <pre>
+                          <code>
+    var myCar = {
+      make: 'Bugatti',
+      model: 'Bugatti La Voiture Noire',
+      year: 2019,
+      accidents: [
+          {
+            date: '3/15/2019',
+            damage_points: '5000',
+            atFaultForAccident: true
+          },
+          {
+            date: '7/4/2022',
+            damage_points: '2200',
+            atFaultForAccident: true
+          },
+          {
+            date: '6/22/2021',
+            damage_points: '7900',
+            atFaultForAccident: true
+          }
+       ]
+    }
+                          </code>
+                        </pre>
+                </p>
+                <h5 class="card-title">Solutions:</h5>
+                <p class="card-text"><b> 1. Loop over the accidents array. Change atFaultForAccident from true to false.</b></p>
+                <p class="card-text">
+                <pre>
+                  <code>
+    for(i =0; i< myCar.accidents.length; i++){
+      myCar.accidents[i].atFaultForAccident = false;
+    }
+                  </code>
+                </pre>
+                </p>
+
+                <p class="card-text"><b> 2. Print the dated of my accidents</b></p>
+                <p class="card-text">
+                <pre>
+                  <code>
+    for(i =0; i< myCar.accidents.length; i++){
+      console.log(myCar.accidents[i].date)
+    }
+                  </code>
+                </pre>
+                </p>
+
+              </div>
+            </div>
+          </div>
+         
+          <div class="card" style="max-width: 100%;">
+            <div class="card-header" id="headingThree">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree"
+                  aria-expanded="false" aria-controls="collapseThree">
+                  Problem 1 (5 mins): Parsing an JSON object’s Values:
+                </button>
+              </h5>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#tasks">
+              <div class="card-body">
+                <p class="card-text">Write a function called “printAllValues” which returns an newArray of all the input object’s values.</p>
+                <p class="card-text"><b>Input (Object):</b></p>
+                <p class="card-text">var object = {name: 'RajiniKanth', age: 33, hasPets : false};</p>
+                <p class="card-text"><b>Output:</b></p>
+                <p class="card-text">['RajiniKanth', 33, false]</p>
+                <p class="card-text">
+                <pre>
+                          <code>
+    var obj = {name : 'RajiniKanth', age : 33, hasPets : false};
+    function printAllValues(obj) {
+     // your code here
+    }
+                          </code>
+                        </pre>
+                </p>
+                <h5 class="card-title">Solutions:</h5>
+                <p class="card-text">
+                <pre>
+                  <code>
+    function printAllValues(obj) {
+      return Object.values(obj);
+    }
+
+    var obj = {name : 'RajiniKanth', age : 33, hasPets : false};
+    console.log(printAllValues(obj));
+                  </code>
+                </pre>
+                </p>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="card" style="max-width: 100%;">
+            <div class="card-header" id="heading5">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse5"
+                  aria-expanded="false" aria-controls="collapse5">
+                  Problem 3( 7–9 mins): : Parsing an JSON object and convert it to a list:
+                </button>
+              </h5>
+            </div>
+            <div id="collapse5" class="collapse" aria-labelledby="heading5" data-parent="#tasks">
+              <div class="card-body">
+                <p class="card-text">Write a function called “convertObjectToList” which converts an object literal into an array of arrays.</p>
+                <p class="card-text"><b>Input (Object):</b></p>
+                <p class="card-text">var object = {name: 'ISRO', age: 35, role: 'Scientist'};</p>
+                <p class="card-text"><b>Output:</b></p>
+                <p class="card-text">[['name', 'ISRO'], ['age', 35], ['role', 'Scientist']]</p>
+                <p class="card-text">
+                <pre>
+                          <code>
+    var object = {name: 'ISRO', age: 35, role: 'Scientist'};
+    
+    function convertListToObject(obj) {
+      // your code here
+    }
+                          </code>
+                        </pre>
+                </p>
+                <h5 class="card-title">Solutions:</h5>
+                <p class="card-text">
+                <pre>
+                  <code>
+    var object = {name: 'ISRO', age: 35, role: 'Scientist'};
+
+    function convertListToObject(obj) {
+      return Object.entries(obj);
+    }
+
+    console.log(convertListToObject(object));
+                  </code>
+                </pre>
+                </p>
+              </div>
+            </div>
+          </div>
+          
+
+
+          <div class="card" style="max-width: 100%;">
+            <div class="card-header" id="heading6">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse6"
+                  aria-expanded="false" aria-controls="collapse6">
+                  Problem 5 ( 7 -9 mins): Parsing a list of lists and convert into a JSON object:
+                </button>
+              </h5>
+            </div>
+            <div id="collapse6" class="collapse" aria-labelledby="heading6" data-parent="#tasks">
+              <div class="card-body">
+                <p class="card-text">Write a function “fromListToObject” which takes in an array of arrays, and returns an object with each pair of elements in the array as a key-value pair.</p>
+                <p class="card-text"><b>Input (Array):</b></p>
+                <p class="card-text">var array = [['make', 'Ford'], ['model', 'Mustang'], ['year', 1964]];</p>
+                <p class="card-text"><b>Output:</b></p>
+                <p class="card-text"><pre>
+    var object = {
+      make : “Ford”
+      model : “Mustang”,
+      year : 1964
+    }
+                </pre>
+              </p>
+                <p class="card-text">
+                <pre>
+                          <code>
+    var array = [['make', 'Ford'], ['model', 'Mustang'], ['year', 1964]];
+    function fromListToObject(arr) {
+      var newObject = {};
+      // your code goes here
+      return newObject;
+    }
+                          </code>
+                        </pre>
+                </p>
+                <h5 class="card-title">Solutions:</h5>
+                <p class="card-text">
+                <pre>
+                  <code>
+      var array = [['make', 'Ford'], ['model', 'Mustang'], ['year', 1964]];
+      
+      function fromListToObject(arr) {
+        var newObject = {};
+        for (var i= 0; i< arr.length; i++){
+          let key = arr[i][0];
+          let value = arr[i][1];
+          newObject[key] = value;
+        }
+        return newObject;
+      }
+
+      console.log(fromListToObject(array));
+                  </code>
+                </pre>
+                </p>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="card" style="max-width: 100%;">
+            <div class="card-header" id="heading7">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse7"
+                  aria-expanded="false" aria-controls="collapse7">
+                  Problem 6 (10 mins): Parsing a list of lists and convert into a JSON object:
+                </button>
+              </h5>
+            </div>
+            <div id="collapse7" class="collapse" aria-labelledby="heading7" data-parent="#tasks">
+              <div class="card-body">
+                <p class="card-text">Write a function called “transformGeekData” that transforms some set of data from one format to another.</p>
+                <p class="card-text"><b>Input (Object):</b></p>
+                <p class="card-text"><pre>
+    var array = [
+      [
+        ['firstName', 'Vasanth'],
+        ['lastName', 'Raja'], 
+        ['age', 24], 
+        ['role', 'JSWizard']
+      ], 
+      [
+        ['firstName', 'Sri'], 
+        ['lastName', 'Devi'], 
+        ['age', 28], 
+        ['role', 'Coder']
+      ]
+    ];
+                </pre></p>
+                <p class="card-text"><b>Output:</b></p>
+                <p class="card-text"><pre>
+    [
+      {
+        firstName: 'Vasanth', 
+        lastName: 'Raja', 
+        age: 24, 
+        role: 'JSWizard'
+      },
+      {
+        firstName: 'Sri', 
+        lastName: 'Devi', 
+        age: 28, 
+        role: 'Coder'
+      }
+    ]
+
+                </pre></p>
+                <p class="card-text">
+                <pre>
+                          <code>
+    var array = [
+      [
+        ['firstName', 'Vasanth'],
+        ['lastName', 'Raja'], 
+        ['age', 24], 
+        ['role', 'JSWizard']
+      ], 
+      [
+        ['firstName', 'Sri'], 
+        ['lastName', 'Devi'], 
+        ['age', 28], 
+        ['role', 'Coder']
+      ]
+    ];
+
+    function transformEmployeeData(arr) {
+      var tranformEmployeeList = [];
+      
+      //Your code
+      
+      return tranformEmployeeList;
+    }
+                          </code>
+                        </pre>
+                </p>
+                <h5 class="card-title">Solutions:</h5>
+                <p class="card-text">
+                <pre>
+                  <code>
+    var array = [
+      [
+        ['firstName', 'Vasanth'],
+        ['lastName', 'Raja'], 
+        ['age', 24], 
+        ['role', 'JSWizard']
+      ], 
+      [
+        ['firstName', 'Sri'], 
+        ['lastName', 'Devi'], 
+        ['age', 28], 
+        ['role', 'Coder']
+      ]
+    ];
+
+    function transformEmployeeData(arr) {
+      var tranformEmployeeList = [];
+      for (var i= 0; i< arr.length; i++){
+        let newObject = {};	
+        for (var j= 0; j< arr[i].length; j++){
+          let key = arr[i][0];
+          let value = arr[i][1];
+          newObject[key] = value;	
+        }
+        tranformEmployeeList.push(newObject);
+      }
+      return tranformEmployeeList;
+    }
+
+    console.log(transformEmployeeData(array));
+                  </code>
+                </pre>
+                </p>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="card" style="max-width: 100%;">
+            <div class="card-header" id="heading8">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse8"
+                  aria-expanded="false" aria-controls="collapse8">
+                  Problem 7 (10 — 20 mins): Parsing two JSON objects and Compare:
+                </button>
+              </h5>
+            </div>
+            <div id="collapse8" class="collapse" aria-labelledby="heading8" data-parent="#tasks">
+              <div class="card-body">
+                <p class="card-text">Read this :<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify" target="_blank"> https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify</a></p>
+                <p class="card-text">Write an “assertObjectsEqual” function from scratch.<br />Assume that the objects in question contain only scalar values (i.e., simple values like strings or numbers).</p>
+                <p class="card-text">It is OK to use JSON.stringify().</p>
+                <p class="card-text"><b>Note:</b> The examples below represent different use cases for the same test. In practice, you should never have multiple tests with the same name.</p>
+               
+                <p class="card-text"><b>Success Case</b></p>
+                <p class="card-text"><b>Input:</b></p>
+                <p class="card-text"><pre>
+    var expected = {foo: 5, bar: 6};
+    var actual = {foo: 5, bar: 6}
+    assertObjectsEqual(actual, expected, 'detects that two objects are equal');
+                </pre></p>
+                <p class="card-text"><b>Output:</b></p>
+                <p class="card-text">Passed</p>
+
+                <p class="card-text"><b>Failure Case</b></p>
+                <p class="card-text"><b>Input:</b></p>
+                <p class="card-text"><pre>
+    var expected = {foo: 6, bar: 5};
+    var actual = {foo: 5, bar: 6}
+    assertObjectsEqual(actual, expected, 'detects that two objects are equal');
+                </pre></p>
+                <p class="card-text"><b>Output:</b></p>
+                <p class="card-text">FAILED [my test] Expected <b>{'foo':6,'bar':5}</b>, but got <b>{'foo':5,'bar':6}</b></p>
+
+                <p class="card-text">
+                <pre>
+                          <code>
+    var expected = {foo: 5, bar: 6};
+    var actual = {foo: 5, bar: 6};
+
+    function assertObjectsEqual(actual, expected, testName){
+     // your code here
+    }
+                          </code>
+                        </pre>
+                </p>
+                <h5 class="card-title">Solutions:</h5>
+                <p class="card-text">
+                <pre>
+                  <code>
+    var expected = {foo: 5, bar: 6};
+    var expected1 = {foo: 6, bar: 5};
+    var actual = {foo: 5, bar: 6};
+
+    function assertObjectsEqual(actual, expected, testName){
+      actualStr = JSON.stringify(actual)
+      expectedStr = JSON.stringify(expected)
+      if(actualStr == expectedStr){
+        return "Passed"
+      } else{
+        return "FAILED ["+testName+"] Expected "+actualStr+", but got "+expectedStr
+      }
+    }
+
+    console.log(assertObjectsEqual(actual, expected, 'test1'))
+    // Output: Passed
+    console.log(assertObjectsEqual(actual, expected1, 'test2'))
+    // Output : FAILED [test2] Expected {"foo":5,"bar":6}, but got {"foo":6,"bar":5}
+
+                  </code>
+                </pre>
+                </p>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="card" style="max-width: 100%;">
+            <div class="card-header" id="heading9">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse9"
+                  aria-expanded="false" aria-controls="collapse9">
+                  Problem 8(10 mins): Parsing JSON objects and Compare:
+                </button>
+              </h5>
+            </div>
+            <div id="collapse9" class="collapse" aria-labelledby="heading9" data-parent="#tasks">
+              <div class="card-body">
+                <p class="card-text">I have a mock data of security Questions and Answers. You function should take the object and a pair of strings and should return if the quest is present and if its valid answer.</p>
+                <p class="card-text">
+                <pre>
+                          <code>
+    var securityQuestions = [
+      {
+        question: 'What was your first pet’s name?',
+        expectedAnswer: 'FlufferNutter'
+      },
+     {
+        question: 'What was the model year of your first car?',
+        expectedAnswer: '1985'
+      },
+      {
+        question: 'What city were you born in?',
+        expectedAnswer: 'NYC'
+      }
+    ]
+
+    function chksecurityQuestions(securityQuestions,question) {
+
+     // your code here
+
+     return true or false; 
+    }
+    
+    //Test case1:
+    var ques = 'What was your first pet’s name?';
+    var ans  =  'FlufferNutter';
+    
+    var status = chksecurityQuestions(securityQuestions, ques, ans);
+    console.log(status); // true
+    
+    //Test case2:
+    var ques = 'What was your first pet’s name?';
+    var ans  =  'DufferNutter';
+    
+    var status = chksecurityQuestions(securityQuestions, ques, ans);
+    console.log(status); // false
+                          </code>
+                        </pre>
+                </p>
+                <h5 class="card-title">Solutions:</h5>
+                <p class="card-text">
+                <pre>
+                  <code>
+    var securityQuestions = [
+      {
+        question: 'What was your first pet’s name?',
+        expectedAnswer: 'FlufferNutter'
+      },
+      {
+        question: 'What was the model year of your first car?',
+        expectedAnswer: '1985'
+      },
+      {
+        question: 'What city were you born in?',
+        expectedAnswer: 'NYC'
+      }
+    ];
+
+    function chksecurityQuestions(securityQuestions,question, answer) { 
+      for (var i = 0; i < securityQuestions.length; i++)
+      {
+        for (keys in securityQuestions[i]){
+          if(keys == "question"){
+            if(securityQuestions[i].question == question && securityQuestions[i].expectedAnswer == answer){
+                return true;
+            }
+          }
+        }
+      }
+
+    return false; 
+
+    }
+
+    //Test case1:
+    var ques = 'What was your first pet’s name?';
+    var ans  =  'FlufferNutter';
+    
+    var status = chksecurityQuestions(securityQuestions, ques, ans);
+    console.log(status); // true
+    
+    //Test case2:
+    var ques = 'What was your first pet’s name?';
+    var ans  =  'DufferNutter';
+    
+    var status = chksecurityQuestions(securityQuestions, ques, ans);
+    console.log(status); // false
+                  </code>
+                </pre>
+                </p>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="card" style="max-width: 100%;">
+            <div class="card-header" id="heading10">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse10"
+                  aria-expanded="false" aria-controls="collapse10">
+                  Problem 9(20 mins): Parsing JSON objects and Compare:
+                </button>
+              </h5>
+            </div>
+            <div id="collapse10" class="collapse" aria-labelledby="heading10" data-parent="#tasks">
+              <div class="card-body">
+                <p class="card-text">Write a function to return the list of characters below 20 age.</p>
+
+                <p class="card-text">
+                <pre>
+                          <code>
+    var students = [
+      {
+        name: 'Siddharth Abhimanyu', 
+        age: 21
+      }, 
+      { 
+        name: 'Malar', 
+        age: 25
+      },
+      {
+        name: 'Maari',
+        age: 18
+      },
+      {
+        name: 'Bhallala Deva',
+        age: 17
+      },
+      {
+        name: 'Baahubali',
+        age: 16
+      },
+      {
+          name: 'AAK chandran',
+          age: 23
+      },
+      {
+        name:'Gabbar Singh',
+        age: 33
+      },
+      {
+        name: 'Mogambo',
+        age: 53
+      },
+      {
+        name: 'Munnabhai',
+        age: 40
+      },
+      {
+        name: 'Sher Khan',
+        age: 20
+      },
+      {
+        name: 'Chulbul Pandey'
+        ,age: 19
+      },
+      {
+        name: 'Anthony',
+        age: 28
+      },
+      {
+        name: 'Devdas',
+        age: 56
+      } 
+    ];
+
+    function returnMinors(arr)
+    {
+      //Your code goes here
+    }
+    console.log(returnMinors(students));
+                          </code>
+                        </pre>
+                </p>
+                <h5 class="card-title">Solutions:</h5>
+                <p class="card-text">
+                <pre>
+                  <code>
+  var students = [
+    {
+      name: 'Siddharth Abhimanyu', 
+      age: 21
+    }, 
+    { 
+      name: 'Malar', 
+      age: 25
+    },
+    {
+      name: 'Maari',
+      age: 18
+    },
+    {
+      name: 'Bhallala Deva',
+      age: 17
+    },
+    {
+      name: 'Baahubali',
+      age: 16
+    },
+    {
+        name: 'AAK chandran',
+        age: 23
+    },
+    {
+      name:'Gabbar Singh',
+      age: 33
+    },
+    {
+      name: 'Mogambo',
+      age: 53
+    },
+    {
+      name: 'Munnabhai',
+      age: 40
+    },
+    {
+      name: 'Sher Khan',
+      age: 20
+    },
+    {
+      name: 'Chulbul Pandey'
+      ,age: 19
+    },
+    {
+      name: 'Anthony',
+      age: 28
+    },
+    {
+      name: 'Devdas',
+      age: 56
+    } 
+  ];
+  function returnMinors(arr)
+  {
+    var newObj = [];
+    for (var i = 0; i< arr.length; i++){
+      if (arr[i].age < 20){
+        newObj.push(arr[i]);
+      }
+    }
+    return newObj;
+  }
+  console.log(returnMinors(students));
+                  </code>
+                </pre>
+                </p>
+              </div>
+            </div>
+          </div>
+
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer class="footer fixed-bottom mt-auto py-3">
+  <div class="container-fluid">
+    <span class="text-muted">Designed with <i class="fas fa-heart" style="color:red"></i> by Prashant Gupta(<a
+        href="https://github.com/codyprashant" style="color: crimson;">@codyPrashant</a>)</span>
+  </div>
+</footer>
+<script src="../../js/jquery-3.5.1.slim.min.js"></script>
+<script src="../../js/bootstrap.bundle.js"></script>

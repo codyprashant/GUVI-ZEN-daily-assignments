@@ -1,0 +1,89 @@
+<link href="../../css/bootstrap.css" rel="stylesheet">
+<link href="../../css/sticky-footer-navbar.css" rel="stylesheet">
+
+<header>
+  <!-- Fixed navbar -->
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <a class="navbar-brand" href="#">GUVI | codyPrashant</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+      aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item ">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Javascript</a>
+        </li>
+        <!-- <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li> -->
+      </ul>
+    </div>
+  </nav>
+</header>
+
+<!-- Begin page content -->
+<main role="main" class="flex-shrink-0">
+  <div class="container-fluid">
+    <h1 class="mt-5">JavaScript: Daily Assignments -> Day 4</h1>
+    <div class="row row-cols-1 row-cols-md-1">
+      <div class="card" style="max-width: 100%;">
+        <div class="card-header">
+          <h4>Function with two params  </h4>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Write a function which takes 2 params and perform the operations based on params.
+          <br />  
+          1. Operation<br />
+          2. Function array 
+          </h5>
+          <p class="card-text">
+            <pre>
+                      <code id = "problem1">
+    function something(oper,arr) {
+      var parm1 = 100 , param2 = 20;
+      console.log(eval(arr[oper](parm1, param2)))
+    }
+
+    function add(a,b){
+      return a+b;
+    }
+
+    function sub(a,b){
+      return a-b;
+    }
+    
+    function mul(a,b){
+      return a*b;
+    }
+    
+    function div(a,b){
+      return a/b;
+    }
+    
+    let aa = [add,sub,mul,div];
+    
+    something(0,aa); // 120
+    something(2,aa); // 2000
+                      </code>
+                    </pre>
+            </p>
+
+         
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer class="footer fixed-bottom mt-auto py-3">
+  <div class="container-fluid">
+    <span class="text-muted">Designed with <i class="fas fa-heart" style="color:red"></i> by Prashant Gupta(<a
+        href="https://github.com/codyprashant" style="color: crimson;">@codyPrashant</a>)</span>
+  </div>
+</footer>
+<script src="../../js/jquery-3.5.1.slim.min.js"></script>
+<script src="../../js/bootstrap.bundle.js"></script>
