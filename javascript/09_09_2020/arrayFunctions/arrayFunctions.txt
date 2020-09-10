@@ -1,0 +1,125 @@
+Rest countries:
+
+1. Get the countries in asia - filter 
+
+var request = new XMLHttpRequest()
+var url_string = 'https://restcountries.eu/rest/v2/all';
+
+// Open a new connection, using the GET request on the URL endpoint
+request.open('GET',url_string , true) 
+request.send();
+
+request.onload = function() {
+var data = JSON.parse(this.response);
+var filteredData = data.filter((singleData) => singleData.region == "Asia")
+console.log(filteredData);
+}
+------------------------------
+
+2. Get the countries with population less than 2L - fliter
+
+var request = new XMLHttpRequest()
+var url_string = 'https://restcountries.eu/rest/v2/all';
+
+// Open a new connection, using the GET request on the URL endpoint
+request.open('GET',url_string , true) 
+request.send();
+
+request.onload = function() {
+var data = JSON.parse(this.response);
+var filteredData = data.filter((singleData) => singleData.population < 200000)
+console.log(filteredData);
+}
+
+------------------------------
+
+3. print follwoing details  name , capital , flag  - foreach,filter
+
+var request = new XMLHttpRequest()
+var url_string = 'https://restcountries.eu/rest/v2/all';
+
+// Open a new connection, using the GET request on the URL endpoint
+request.open('GET',url_string , true) 
+request.send();
+
+request.onload = function() {
+var data = JSON.parse(this.response);
+
+data.forEach((singleData) => console.log(singleData.name +", "+singleData.capital +", "+singleData.flag))
+
+}
+
+------------------------------
+
+4.Print the total population of the countries  - reduce
+
+var request = new XMLHttpRequest()
+var url_string = 'https://restcountries.eu/rest/v2/all';
+
+// Open a new connection, using the GET request on the URL endpoint
+request.open('GET',url_string , true) 
+request.send();
+
+request.onload = function() {
+var data = JSON.parse(this.response);
+var filteredData = data.reduce((total, singleData) => {
+	
+	return singleData.population + parseInt(total)
+	}, 0)
+console.log(filteredData);
+}
+
+------------------------------
+5. Print the total population of the countries in asia - filter & reduce
+
+
+var request = new XMLHttpRequest()
+var url_string = 'https://restcountries.eu/rest/v2/all';
+
+// Open a new connection, using the GET request on the URL endpoint
+request.open('GET',url_string , true) 
+request.send();
+
+request.onload = function() {
+var data = JSON.parse(this.response);
+
+ var filteredData = data.filter((singleData) => singleData.region == "Asia").reduce((total, singleData) => {
+	
+	return singleData.population + parseInt(total)
+	}, 0)
+
+
+console.log(filteredData);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-------------------
+
+https://docs.google.com/document/d/1AB04kg6FD9UuJgfW3P9Ml_Ol9tFCNJRVT2mx4jPKK3U/edit
+
+

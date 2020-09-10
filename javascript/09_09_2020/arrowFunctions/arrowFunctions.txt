@@ -1,0 +1,44 @@
+Do the below programs in arrow functions:
+
+1. Print odd numbers in an array :
+
+var arr =[2, 3, 4, 5, 6, 7];
+var odd = arr.filter((num) => num % 2 == 0);
+console.log(odd);
+------------------------------
+
+2. Convert all the strings to title caps in a string array
+
+var strarr = ["Prashant", "Gupta", "javascript"];
+var result = strarr.map((str) => str.toUpperCase());
+console.log(result);
+------------------------------
+3. Sum of all numbers in an array
+
+var arr =[2, 3, 4, 5, 6, 7];
+var sum = arr.reduce((total, num) => {return num + total},0);
+console.log(sum)
+------------------------------
+4. Return all the prime numbers in an array
+
+var arr =[ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16,  17,  18,  19,  20];
+  var odd = arr.filter((num) => {
+    if(num == 2 || num == 3 || num == 5 || num == 7)
+        return num;
+    else if(num != 0 && num != 1 && num % 2 != 0 && num % 3 != 0 && num % 5 != 0 && num % 7 != 0)
+        return num
+  });
+console.log(odd);
+------------------------------
+
+
+5. Return all the palindromes in an array 
+
+var strarr = ["Prashant", "Gupta", "javascript", "eye", "refer", "Wow", "1991"];
+var palindromes = strarr.filter((str) => {
+	var re = /[^A-Za-z0-9]/g;
+	var modString = str.toLowerCase().replace(re, '');
+	return (modString == modString.split('').reverse().join(''))
+});
+console.log(palindromes)
+
