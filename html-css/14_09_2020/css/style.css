@@ -1,0 +1,237 @@
+@import "../css/fontawesome/css/all.css";
+body {
+    margin: 35px 200px;
+}
+
+.far,
+.fas,
+.fab {
+    color: rgb(71, 194, 194);
+    padding-left: 15px;
+}
+
+table {
+    width: 100%;
+}
+
+.name {
+    font-size: 60px;
+    margin: 10px;
+}
+
+.post {
+    font-size: 30px;
+    margin: 10px;
+    color: rgb(71, 194, 194);
+}
+
+.header-left {
+    /* width: 35%; */
+    float: left;
+    padding: 15px;
+    /* border: 1px solid red; */
+    text-align: left;
+}
+
+.header-right {
+    /* width: 60%; */
+    float: right;
+    padding: 15px;
+    text-align: right;
+    font-size: 20px;
+    /* border: 1px solid red; */
+}
+
+.header-intro {
+    border: 2px solid rgb(71, 194, 194);
+    border-radius: 5px;
+    float: left;
+    padding: 15px;
+    text-align: left;
+    font-size: 20px;
+    /* border: 1px solid red; */
+}
+
+.heading-title {
+    float: left;
+    padding: 0px 15px;
+    text-align: left;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 15px;
+}
+
+.heading-line {
+    border: 2px solid rgb(71, 194, 194);
+    border-radius: 5px;
+}
+
+.job-title {
+    padding: 0px 15px;
+    text-align: left;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.job-company {
+    text-align: left;
+    font-size: 20px;
+    margin-left: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.skills {
+    padding: 0px 15px;
+    text-align: left;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.skills span {
+    position: relative;
+    display: inline-grid;
+    padding: .4em .4em .4em .4em;
+    *padding: .4em;
+    margin: .5em 0;
+    background: rgb(211, 245, 245);
+    color: black;
+    font-weight: 300;
+    text-decoration: none;
+    -webkit-transition: box-shadow 1s;
+    transition: box-shadow 1s;
+    border-radius: 10px;
+}
+
+.job-location {
+    text-align: left;
+    font-size: 12px;
+    margin-left: 25px;
+    margin-right: 25px;
+    color: rgb(71, 194, 194);
+}
+
+.text-left {
+    float: left;
+}
+
+.text-right {
+    float: right;
+}
+
+ul {
+    list-style-type: '-';
+    margin-top: 5px;
+}
+
+
+/* li span {
+    position: relative;
+    left: 20px;
+  } */
+
+.job-desc-head {
+    text-align: left;
+    font-size: 18px;
+    margin-left: 25px;
+    color: rgb(71, 194, 194);
+    margin-bottom: 5px;
+}
+
+.job-description {
+    text-align: justify;
+    margin-left: 25px;
+    font-weight: bolder;
+}
+
+.line-1 {
+    border-left: 2px solid rgb(71, 194, 194);
+    border-right: 2px solid rgb(71, 194, 194);
+    border-radius: 15px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.line-2 {
+    border-left: 2px solid rgb(71, 194, 194);
+    border-right: 2px solid rgb(71, 194, 194);
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+
+/* Test Unordered List styleing */
+
+.list-type {
+    margin-left: 25px;
+    margin-right: 20px;
+}
+
+.list-type ol {
+    counter-reset: li;
+    list-style: none;
+    *list-style: decimal;
+    font-size: 18px;
+    padding: 0;
+    margin-bottom: 4em;
+}
+
+.list-type span {
+    position: relative;
+    display: block;
+    padding: .4em .4em .4em 2em;
+    *padding: .4em;
+    margin: .5em 0;
+    background: rgb(211, 245, 245);
+    color: black;
+    font-weight: 300;
+    text-decoration: none;
+    box-shadow: inset 0.5em 0 rgb(71, 194, 194);
+    ;
+    -webkit-transition: box-shadow 1s;
+    /* For Safari 3.1 to 6.0 */
+    transition: box-shadow 1s;
+}
+
+.list-type2 {
+    margin-left: 25px;
+    margin-right: 20px;
+}
+
+.list-type2 ol {
+    counter-reset: li;
+    list-style: none;
+    *list-style: decimal;
+    font-size: 18px;
+    padding: 0;
+    margin-bottom: 4em;
+}
+
+.list-type2 span {
+    position: relative;
+    display: block;
+    padding: .4em .4em .4em 2em;
+    *padding: .4em;
+    margin: .5em 0;
+    background: rgb(211, 245, 245);
+    color: black;
+    font-weight: 300;
+    text-decoration: none;
+    box-shadow: inset 0.5em 0 rgb(71, 194, 194);
+    ;
+    -webkit-transition: box-shadow 1s;
+    /* For Safari 3.1 to 6.0 */
+    transition: box-shadow 1s;
+}
+
+.about-border {
+    display: block;
+    width: 90%;
+    height: 3px;
+    background: rgb(71, 194, 194);
+    margin-top: 35px;
+    margin-left: 27px
+}
