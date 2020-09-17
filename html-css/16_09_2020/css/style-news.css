@@ -1,0 +1,139 @@
+
+
+.h1{
+    font-size: 5.5vw;
+}
+
+.h11{
+    font-size: 6vw;
+    font-weight: 700;
+}
+
+.h111{
+    font-size: 4vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.h112{
+    font-size: 1.1vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.h113{
+    font-size: 1.7vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.modImg img{
+    width: 760px; 
+    height: 495px;
+}
+
+.micro-img{
+    width: 150px; 
+    height: 150px;
+}
+
+.img-underlinetext{
+    font-size: 18px;
+}
+
+.modImg2 img{
+    width: auto; 
+    height: 500px;
+}
+
+.news3-top-img{
+    padding-left: 1vh;
+    padding-top: 1vh;
+}
+
+.minImg img{
+    width: 750px; 
+    height: 233px;
+}
+
+.minImg2 img{
+    width: 750px; 
+    height: 200px;
+}
+
+.text-muted{
+    padding: 8px;
+}
+
+
+  .ribbon {
+    position: absolute;
+    left: 10px; top: -5px;
+    z-index: 1;
+    overflow: hidden;
+    width: 150px; height: 75px;
+    text-align: right;
+  }
+  .ribbon span {
+    font-size: 14px;
+    font-weight: bold;
+    color: #FFF;
+    text-align: center;
+    line-height: 40px;
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    width: 120px;
+    display: block;
+    background: #79A70A;
+    background: linear-gradient(#F70505 0%, #8F0808 100%);
+    box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 1);
+    position: absolute;
+    top: -5px; left: -21px;
+  }
+  .ribbon span::before {
+    content: "";
+    position: absolute; left: 0px; top: 100%;
+    z-index: -1;
+  }
+  .ribbon span::after {
+    content: "";
+    position: absolute; right: 0px; top: 100%;
+    z-index: -1;
+    
+  }
+  
+  .mt-4-5{
+    margin-top: 2.5rem !important;
+  }
+
+  .mt-6-5{
+    margin-top: 2.5rem !important;
+  }
+
+
+  .box-news{
+      padding: 30px;
+  }
+
+  .box-news2{
+    padding: 30px;
+}
+
+
+.cardFont{
+    font-size: 2vh;;
+}
+
+.hideCards{
+    display:none;
+}
+
+  @media only screen and (min-width: 992px) {
+    .hideCards{
+        display:block;
+    }
+  } 
+
+  @media only screen and (max-width: 992px) {
+  .h112{
+    font-size: 3vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+}
