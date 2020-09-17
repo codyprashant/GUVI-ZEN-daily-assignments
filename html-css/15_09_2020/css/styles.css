@@ -1,0 +1,107 @@
+.main {
+  border: 1px solid black;
+  border-radius: 75px;
+  padding: 10px 0;
+  margin: 50px 300px;
+  overflow: hidden;
+  background-image: url("/images/1.jpg");
+  
+  text-align: center;
+}
+
+.top_h1 {
+  color: white;
+}
+
+.inner_border {
+  padding: 20px;
+}
+
+.heading {
+  width: 10%;
+  position: relative;
+  color: white;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+
+  font-size: 30px;
+}
+
+.row1 {
+  transform: skewY(-3deg);
+  padding: 0;
+  margin: 0;
+  height: 500px;
+  background-image: url("/images/12.jpg");
+  background-color: rgb(19, 7, 70);
+  background-size: cover;
+}
+
+.row2 {
+  background-image: url("/images/8.jpg");
+  background-size: cover;
+  transform: skewY(-3deg);
+  height: 500px;
+  padding: 0;
+  margin: 0;
+  background-color: rgb(19, 7, 70);
+}
+
+.row3 {
+  background-image: url("/images/13.jpg");
+  transform: skewY(-3deg);
+  background-size: cover;
+  height: 500px;
+  padding: 0;
+  margin: 0;
+  background-color: rgb(19, 7, 70);
+}
+
+.row4 {
+  background-image: url("/images/4.jpg");
+  background-size: cover;
+  height: 500px;
+  margin: 0;
+  transform: skewY(-3deg);
+  padding: 0;
+  background-color: rgb(19, 7, 70);
+}
+
+.row5 {
+  background-image: url("/images/6.jpg");
+  background-size: cover;
+  height: 500px;
+  transform: skewY(-3deg);
+  padding: 0;
+  margin: 0;
+  background-color: rgb(19, 7, 70);
+}
+
+.div_heading {
+  transform: skewY(3deg);
+}
+
+.row6 {
+  height: 300px;
+}
+
+p {
+  transform: skewY(3deg);
+  padding: 0 100px;
+  font-size: 20px;
+}
+
+.last_row_para {
+  transform: skewY(0deg);
+  padding-top: 30px;
+}
+
+.first_letter {
+  font-family: "Alex Brush", cursive;
+  font-size: 150px;
+}
+
+.white_font {
+  color: white;
+}
