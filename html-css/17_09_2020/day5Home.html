@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Resume | Prashant Gupta</title>
+</head>
+
+<body>
+
+</body>
+<script>
+    var section = document.createElement('section');
+    var table = document.createElement('table');
+
+    var brk = document.createElement('br');
+    var brk1 = document.createElement('br');
+    var brk2 = document.createElement('br');
+    var brk3 = document.createElement('br');
+    var brk4 = document.createElement('br');
+    var brk5 = document.createElement('br');
+    var brk6 = document.createElement('br');
+    var brk7 = document.createElement('br');
+    var brk8 = document.createElement('br');
+    var brk9 = document.createElement('br');
+    var brk10 = document.createElement('br');
+    var brk11 = document.createElement('br');
+    var brk12 = document.createElement('br');
+    var brk13 = document.createElement('br');
+    var brk14 = document.createElement('br');
+    var brk15 = document.createElement('br');
+    var brk16 = document.createElement('br');
+
+    var row1 = document.createElement('tr');
+
+    var row1col1 = document.createElement('td');
+    var row1col1div1 = createColumn('div', 'header-left');
+
+    var row1col1div1p1 = createParagraph('p', 'Prashant Gupta', 'name');
+    var row1col1div1p2 = createParagraph('p', 'Full Stack Developer', 'post');
+    row1col1div1.append(row1col1div1p1, row1col1div1p2);
+    row1col1.appendChild(row1col1div1);
+
+    var row1col2 = document.createElement('td');
+    var row1col2div1 = createColumn('div', 'header-right');
+
+    var row1col2div1p1 = createParagraph('p', 'prashant.gurukul6893@gmail.com<i class="far fa-envelope"></i>');
+    var row1col2div1p2 = createParagraph('p', '+91-98733-90537 <i class="fas fa-mobile"></i>');
+    var row1col2div1p3 = createParagraph('p', 'Noida, India <i class="fas fa-map-marker-alt"></i>');
+    var row1col2div1p4 = createParagraph('p', '<a href="https://www.linkedin.com/in/prashant-gupta-0693/" target="_blank" style="text-decoration: none; color:black">linkedin.com/in/prashant-gupta-0693</a> <i class="fab fa-linkedin"></i>');
+    var row1col2div1p5 = createParagraph('p', '<a href="https://portfolio-prashant.netlify.app/" target="_blank" style="text-decoration: none; color:black">portfolio-prashant.netlify.app</a> <i class="fas fa-link"></i>');
+    row1col2div1.append(row1col2div1p1, row1col2div1p2, row1col2div1p3, row1col2div1p4, row1col2div1p5);
+    row1col2.appendChild(row1col2div1);
+
+    row1.append(row1col1, row1col2);
+
+    var row2 = document.createElement('tr');
+    var row2col1 = document.createElement('td');
+    row2col1.setAttribute('colspan', '2');
+
+    var intro = "Professional, detail-oriented Information Security Analyst and Java Developer motivated to drive projects from start to finish as part of a dynamic team. Superior capacity to solve complex problems and thrive under pressure in fast-pace environments. Focused on satisfying customer needs through robust, innovative and forward-thinking solutions."
+    var row2col1p1 = createParagraph('p', intro, 'header-intro');
+    row2col1.append(row2col1p1);
+    row2.append(row2col1);
+
+    var row3 = document.createElement('tr');
+    var row3col1 = document.createElement('td');
+    row3col1.setAttribute('width', '50%');
+
+    var row3col1p1 = createParagraph('p', 'Work Experience', 'heading-title');
+    var row3col1div1 = createColumn('div', 'about-border');
+    row3col1.append(row3col1p1, brk1, row3col1div1)
+
+    var row3col2 = document.createElement('td');
+    row3col2.setAttribute('width', '50%');
+
+    var row3col2p1 = createParagraph('p', 'Skills', 'heading-title');
+    var row3col2div1 = createColumn('div', 'about-border');
+    row3col2.append(row3col2p1, brk, row3col2div1)
+    row3.append(row3col1, row3col2)
+
+
+    var row4 = document.createElement('tr');
+    var row4col1 = document.createElement('td');
+    row4col1.setAttribute('width', '50%');
+
+    var row4col1div1 = createColumn('div', 'line-1');
+    var row4col1div1p1 = createParagraph('p', 'Senior Software Engineer (Java Developer)', 'job-title');
+
+
+    var row4col1div1p2 = createParagraph('p', 'HCL Technologies', 'job-company');
+    var row4col1div1p3 = createParagraph('p', ' ', 'job-location');
+    var row4col1div1p3span1 = createParagraph('span', 'May 2017 - Present', 'text-left');
+    var row4col1div1p3span2 = createParagraph('span', 'Chennai, India', 'text-right');
+    row4col1div1p3.append(row4col1div1p3span1, row4col1div1p3span2, brk4);
+
+    var row4col1div1div1 = createColumn('div', 'line-2');
+    var row4col1div1div1p1 = createParagraph('p', 'Linedata - Capitalstream Project', 'job-desc-head');
+    var row4col1div1div1p2 = createParagraph('p', ' ', 'job-description');
+    var description1 = [
+        'Capitalstream is a credit origination and risk management solution that integrates and automates previously disparate processes to streamline lending.',
+        'Works to enhance product and provide support to all the reported issues.',
+        'Experienced in JAVA, JSP, JS, JQuery, HTML, Velocity script and many other languages.',
+        'Experience on MSSQL and PL/SQL.',
+        'Designed and Developed new automated Web App tool for Hosting to handle all servers actions on one Web App. Web tool has features to handle all daily manual tasks to be done automatically on single click.'
+    ]
+    var row4col1div1div1p2jobDesc = jobListType(description1, 'list-type');
+    row4col1div1div1p2.appendChild(row4col1div1div1p2jobDesc);
+
+    row4col1div1div1.append(row4col1div1div1p1, row4col1div1div1p2)
+    row4col1div1.append(row4col1div1p1, row4col1div1p2, row4col1div1p3, row4col1div1div1)
+
+
+    var row4col1div2 = createColumn('div', 'line-1');
+    var row4col1div2p1 = createParagraph('p', 'Project Mentor', 'job-title');
+
+
+    var row4col1div2p2 = createParagraph('p', 'Freelancing at Great Learning', 'job-company');
+    var row4col1div2p3 = createParagraph('p', ' ', 'job-location');
+    var row4col1div2p3span1 = createParagraph('span', 'August 2020 - Present', 'text-left');
+    var row4col1div2p3span2 = createParagraph('span', 'India', 'text-right');
+    row4col1div2p3.append(row4col1div2p3span1, row4col1div2p3span2, brk5);
+
+    var row4col1div2div1 = createColumn('div', 'line-2');
+    var row4col1div2div1p1 = createParagraph('p', 'Stanford Advanced Computer Security Program', 'job-desc-head');
+    var row4col1div2div1p2 = createParagraph('p', ' ', 'job-description');
+    var description2 = [
+        'Provides project sessions and support on "Exploiting Web Applications" and "Network Security".',
+        'Evaluation of module projects.',
+        'Assists in updating course content of the program.'
+    ]
+    var row4col1div2div1p2jobDesc = jobListType(description2, 'list-type');
+    row4col1div2div1p2.appendChild(row4col1div2div1p2jobDesc);
+
+    row4col1div2div1.append(row4col1div2div1p1, row4col1div2div1p2)
+    row4col1div2.append(row4col1div2p1, row4col1div2p2, row4col1div2p3, row4col1div2div1)
+
+
+    var row4col1div3 = createColumn('div', 'line-1');
+    var row4col1div3p1 = createParagraph('p', 'Information Security Analyst', 'job-title');
+
+
+    var row4col1div3p2 = createParagraph('p', 'Upwork Freelancer', 'job-company');
+    var row4col1div3p3 = createParagraph('p', ' ', 'job-location');
+    var row4col1div3p3span1 = createParagraph('span', 'July 2017 - Present', 'text-left');
+    var row4col1div3p3span2 = createParagraph('span', 'India', 'text-right');
+    row4col1div3p3.append(row4col1div3p3span1, row4col1div3p3span2, brk6);
+
+    var row4col1div3div1 = createColumn('div', 'line-2');
+    var row4col1div3div1p1 = createParagraph('p', 'Expertised/Tasks', 'job-desc-head');
+    var row4col1div3div1p2 = createParagraph('p', ' ', 'job-description');
+    var description3 = [
+        'Experience in Penetration testing on Web Applications.',
+        'Experience in performing in Vulnerability scanning using Nessus and Accunetix. Also expertise in other security operating systems and tools as KALI, Arch Linux, Parrot, and many more tools of them.',
+        'Deep knowledge of multiple types of attacks like SQL injection, Cross-site scripting, buffer overflows, CSRF, LFI, RFI, and many others.',
+        'Experience in writing automate scripts for performing  different actions.',
+        'Deep knowledge on OWASP 10.'
+    ]
+    var row4col1div3div1p2jobDesc = jobListType(description3, 'list-type');
+    row4col1div3div1p2.appendChild(row4col1div3div1p2jobDesc);
+
+    row4col1div3div1.append(row4col1div3div1p1, row4col1div3div1p2)
+    row4col1div3.append(row4col1div3p1, row4col1div3p2, row4col1div3p3, row4col1div3div1)
+
+    row4col1.append(row4col1div1, row4col1div2, row4col1div3)
+
+    var row4col2 = document.createElement('td');
+    row4col2.setAttribute('width', '50%');
+    var skillArr = [ 'Java', 'Javascript', 'Python', 'PHP', 'ReactJS', 'NodeJS', 'MySQL','MSSQL', 'MongoDB', 'XSS Scripting', 'Web App Penetration Testing',
+        'SQL Injection',  'Vulnerability Assesments', 'System Penetration testing' ];
+
+    var row4col2p1 = skills(skillArr);
+    var row4col2p2 = createParagraph('p', 'Personal Projects', 'heading-title');
+    var row4col2p2div = createColumn('div', 'about-border');
+    var row4col2div1 = createColumn('div', 'line-1');
+    var row4col2div1p1 = createParagraph('p', 'Automatic Huge quantity WhatsApp message sender', 'job-title');
+    var row4col2div1p2 = createParagraph('p', 'Created script in both JAVA and Python to send any no of text messages to any WhatsApp Messenger No.', 'job-company');
+    row4col2div1.append(row4col2div1p1, row4col2div1p2);
+
+    var row4col2div2 = createColumn('div', 'line-1');
+    var row4col2div2p1 = createParagraph('p', 'Automatic Huge Quantity Text Message Sender', 'job-title');
+    var row4col2div2p2 = createParagraph('p', 'Working on script to send huge no. of messages to any particular mobile no. to test SMS bombing concept.', 'job-company');
+    row4col2div2.append(row4col2div2p1, row4col2div2p2);
+
+    var row4col2p3 = createParagraph('p', 'Certfications', 'heading-title');
+    var row4col2div3 = createColumn('div', 'about-border');
+    var certifications = [
+        'Data Science with Python <br><small>Feb, 2020</small>',
+        'Comptia Security + <br><small>April, 2020</small>',
+        'Developing Ethical hacking tools with Python <br><small>April, 2020</small>',
+        'Machine Learning <br><small>April, 2020</small>',
+        'Tableau 10 <br><small>May, 2020</small>',
+        'Information Security Certified professional <br><small>May, 2019</small>',
+        'Web Application Penetration Testing <br><small>Oct, 2018</small>',
+        'Cryptography <br><small>Sept, 2018</small>',
+        'Cross-Site Scripting <br><small>Sept, 2018</small>',
+        'R Programming <br><small>July, 2018</small>'
+    ]
+    var row4col2div4 =  jobListType(certifications, 'list-type2');
+
+    row4col2.append(row4col2p1, brk7, row4col2p2, brk10, row4col2p2div,  row4col2div1, row4col2div2, brk8, row4col2p3, brk9, row4col2div3, row4col2div4)
+    row4.append(row4col1, row4col2)
+
+
+    var row5 = document.createElement('tr');
+    var row5col1 = document.createElement('td');
+    row5col1.setAttribute('width', '50%');
+
+    var row5col1p1 = createParagraph('p', 'Work Experience', 'heading-title');
+    var row5col1div1 = createColumn('div', 'about-border');
+    row5col1.append(row5col1p1, brk15, row5col1div1)
+
+    var row5col2 = document.createElement('td');
+    row5col2.setAttribute('width', '50%');
+
+    var row5col2p1 = createParagraph('p', 'Skills', 'heading-title');
+    var row5col2div1 = createColumn('div', 'about-border');
+    row5col2.append(row5col2p1, brk16, row5col2div1)
+    row5.append(row5col1, row5col2)
+
+    var row6 = document.createElement('tr');
+    var row6col1 = document.createElement('td');
+
+    var row6col1div1 = createColumn('div', 'line-1');
+    var row6col1div1p1 = createParagraph('p', 'Stanford Advanced Computer Security Program (Online-Mode)', 'job-title');
+    var row6col1div1p2 = createParagraph('p', 'Stanford University', 'job-company');
+    var row6col1div1p3 = createParagraph('p', ' ', 'job-location');
+    var row6col1div1p3span1 = createParagraph('span', '07/2019 – 01/2020', 'text-left');
+    row6col1div1p3.append(row6col1div1p3span1, brk11);
+
+    var row6col1div2 = createColumn('div', 'line-1');
+    var row6col1div2p1 = createParagraph('p', 'Masters in Data Science(Online-Mode)', 'job-title');
+    var row6col1div2p2 = createParagraph('p', 'Simplilearn', 'job-company');
+    var row6col1div2p3 = createParagraph('p', ' ', 'job-location');
+    var row6col1div2p3span1 = createParagraph('span', '08/2019 – 04/2020', 'text-left');
+    row6col1div2p3.append(row6col1div2p3span1, brk12);
+
+    var row6col1div3 = createColumn('div', 'line-1');
+    var row6col1div3p1 = createParagraph('p', 'Bachelor of Technology in Aeronautical Engineering', 'job-title');
+    var row6col1div3p2 = createParagraph('p', 'Punjab Technical University, India', 'job-company');
+    var row6col1div3p3 = createParagraph('p', ' ', 'job-location');
+    var row6col1div3p3span1 = createParagraph('span', '07/2011 – 07/2015', 'text-left');
+    row6col1div3p3.append(row6col1div3p3span1, brk13);
+
+    row6col1.append(row6col1div1, row6col1div1p1, row6col1div1p2, row6col1div1p3, row6col1div2, row6col1div2p1, row6col1div2p2, row6col1div2p3, row6col1div3, row6col1div3p1, row6col1div3p2, row6col1div3p3)
+    
+    var row6col2 = document.createElement('td');
+
+    var row6col2div1 = createColumn('div', 'line-1');
+    var row6col2div1p1 = createParagraph('p', 'Ranked in top 500 member on Hackthebox platform with Hacker Rank', 'job-title');
+    var row6col2div1p2 = createParagraph('p', '<a href="https://www.hackthebox.eu/" target="_blank" style="text-decoration: none; color: rgb(71, 194, 194);;">hackthebox.eu</a>', 'job-company');
+    row6col2div1.append(row6col2div1p1, row6col2div1p2, brk14);
+
+    var row6col2div2 = createColumn('div', 'line-1');
+    var row6col2div2p1 = createParagraph('p', 'Completed from basic to max level web challenges of NATAS: Overthewire', 'job-title');
+    var row6col2div2p2 = createParagraph('p', '<a href="https://overthewire.org/wargames/natas/" target="_blank" style="text-decoration: none; color: rgb(71, 194, 194);;">overthewire.org/wargames/natas</a>', 'job-company');
+row6col2div2.append(row6col2div2p1, row6col2div2p2)
+    row6col2.append(row6col2div1, row6col2div2)
+    
+    row6.append(row6col1, row6col2)
+
+    table.append(row1, row2, row3, row4, row5, row6);
+    section.append(table);
+    document.body.append(section)
+
+
+
+    function createParagraph(element, htmltext, className = '') {
+        var pTag = document.createElement(element)
+        if (className != '') {
+            pTag.setAttribute('class', className)
+        }
+        pTag.innerHTML = htmltext;
+        return pTag;
+    }
+
+    function jobListType(description, className) {
+        var div1 = createColumn('div', className);
+        var olTag = document.createElement('ol')
+        for (var i = 0; i < description.length; i++) {
+            var liTag = document.createElement('li');
+            var spanTag = document.createElement('span');
+            spanTag.innerHTML = description[i];
+
+            liTag.appendChild(spanTag);
+            olTag.append(liTag);
+        }
+        div1.appendChild(olTag)
+
+        return div1;
+    }
+
+    function skills(description) {
+        var pTag = createParagraph('p', ' ', 'skills');
+
+        for (var i = 0; i < description.length; i++) {
+            var spanTag = document.createElement('span');
+            spanTag.innerHTML = description[i];
+
+            pTag.append(spanTag);
+        }
+
+        return pTag;
+    }
+
+
+    function createColumn(element, className, id = '') {
+        var col = document.createElement(element)
+        col.setAttribute('class', className)
+        col.id = id
+        return col;
+    }
+
+</script>
+
+
+</html>
