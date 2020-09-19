@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px 10px;
+}
+
+.row {margin: 0 -5px;}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 990px) {
+  .column {
+    width: 50%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  text-align: left;
+  background-color: #f1f1f1;
+}
+
+.container {
+  border-radius: 5px;
+  width: 100%;
+  /* min-width: 992px !important; */
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 50px;
+  /* margin-top: 50px; */
+}
+
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 700px) {
+  .container {
+    max-width: 680px;
+  }
+
+}
+
+@media (min-width: 990px) {
+  .container {
+    max-width: 960px;
+  }
+
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+
+}
+
+.price {
+  color: black;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  border-radius: 5px;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: rgb(26, 185, 53);
+  text-align: center;
+  cursor: pointer;
+  width: 45%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+.internal-text{
+  padding:10px;
+}
+
+.addcart{
+  float:right;
+}
