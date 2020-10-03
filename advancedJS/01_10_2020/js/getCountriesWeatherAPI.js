@@ -51,7 +51,7 @@ function getAllCountries() {
 }
 
 function getWeather(city){
-    fetch('http://api.openweathermap.org/data/2.5/weather?q='+city+'&appid=c4e86c152eb17ceaea19646ff4511457')
+    fetch('https://api.openweathermap.org/data/2.5/weather?q='+city+'&appid=c4e86c152eb17ceaea19646ff4511457')
         .then(response => response.json())
             .then(result => {
                     var weather = document.getElementById('weatherDetails'+city);
