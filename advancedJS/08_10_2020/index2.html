@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #tv_container {
+            width: 1200px; /* Adjust TV image width */
+            height: 900px; /* Adjust TV image height */
+            position: relative;
+        }
+        #tv_container:after {
+            content: '';
+            display: block;
+            background: url('images/base.png') no-repeat top left transparent;
+            width: 100%;
+            height: 100%;
+            left: 0px;
+            top: 0px;
+            position: absolute;
+            z-index: 10;
+        }
+        #tv_container video {
+            position: absolute;
+            top: 30px; /* Adjust top position */
+            left: 40px; /* Adjust left position */
+            z-index: 5;
+        }
+    </style>
+</head>
+<body>
+    <div id="tv_container">
+        <video width="1060" height="610" autoplay>
+            <source src="images/video.mp4" type="video/mp4" />
+        </video>
+    </div>
+</body>
+</html>
