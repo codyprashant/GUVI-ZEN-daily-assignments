@@ -1,0 +1,344 @@
+MongoDB Enterprise > use guviZenClass
+switched to db guviZenClass
+MongoDB Enterprise > db.students.insertMany(
+...     [
+...         {
+...             "name" : "Prashant Gupta",
+...             "age" : 28,
+...             "username" : "PGupta"
+...         },
+...         {
+...             "name" : "Arpan Gupta",
+...             "age" : 22,
+...             "username" : "AGupta"
+...         },
+...         {
+...             "name" : "Darpan Gupta",
+...             "age" : 32,
+...             "username" : "DGupta"
+...         },
+...         {
+...             "name" : "Himanshu Gupta",
+...             "age" : 29,
+...             "username" : "HGupta"
+...         }
+...     ]
+... )
+{
+        "acknowledged" : true,
+        "insertedIds" : [
+                ObjectId("5fa76eae47d74dd7f52ed55b"),
+                ObjectId("5fa76eae47d74dd7f52ed55c"),
+                ObjectId("5fa76eae47d74dd7f52ed55d"),
+                ObjectId("5fa76eae47d74dd7f52ed55e")
+        ]
+}
+MongoDB Enterprise > db.topics.insertMany([
+... {
+...         "name" : "Loops"
+... },
+... {
+...         "name" : "Stacks"
+... },
+... {
+...         "name" : "Trees"
+... },
+... {
+...         "name" : "Arrays"
+... },
+... {
+...         "name" : "Operators"
+... },
+... {
+...         "name" : "Graph"
+... },
+... {
+...         "name" : "Sensors"
+... },
+... {
+...         "name" : "neurons"
+... }])
+{
+        "acknowledged" : true,
+        "insertedIds" : [
+                ObjectId("5fa76fac47d74dd7f52ed55f"),
+                ObjectId("5fa76fac47d74dd7f52ed560"),
+                ObjectId("5fa76fac47d74dd7f52ed561"),
+                ObjectId("5fa76fac47d74dd7f52ed562"),
+                ObjectId("5fa76fac47d74dd7f52ed563"),
+                ObjectId("5fa76fac47d74dd7f52ed564"),
+                ObjectId("5fa76fac47d74dd7f52ed565"),
+                ObjectId("5fa76fac47d74dd7f52ed566")
+        ]
+}
+MongoDB Enterprise > db.courses.insertMany([
+... {
+...         "name" : "Data Structures",
+...         "duration_in_weeks" : 6,
+...         "mode" : "online"
+... },
+... {
+...         "name" : "Full Stack Development",
+...         "duration_in_weeks" : 13,
+...         "mode" : "online"
+... },
+... {
+...         "name" : "Python",
+...         "duration_in_weeks" : 4,
+...         "mode" : "offline"
+... },
+... {
+...         "name" : "Artificial Intelligence",
+...         "duration_in_weeks" : 18,
+...         "mode" : "online"
+... }])
+{
+        "acknowledged" : true,
+        "insertedIds" : [
+                ObjectId("5fa7701047d74dd7f52ed567"),
+                ObjectId("5fa7701047d74dd7f52ed568"),
+                ObjectId("5fa7701047d74dd7f52ed569"),
+                ObjectId("5fa7701047d74dd7f52ed56a")
+        ]
+}
+MongoDB Enterprise > db.topics.update(
+...     {
+...         '_id':ObjectId("5fa76fac47d74dd7f52ed55f")
+...     },
+...     {
+...         $set:
+...             {
+...                 "course" : [ObjectId("5fa7701047d74dd7f52ed568") ]
+...             }
+...     }
+... )
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+MongoDB Enterprise > db.topics.update(
+...     {
+...         '_id':ObjectId("5fa76fac47d74dd7f52ed560")
+...     },
+...     {
+...         $set:
+...             {
+...                 "course" : [ObjectId("5fa7701047d74dd7f52ed567") ]
+...             }
+...     }
+... )
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+MongoDB Enterprise > db.topics.update(
+...     {
+...         '_id':ObjectId("5fa76fac47d74dd7f52ed561")
+...     },
+...     {
+...         $set:
+...             {
+...                 "course" : [ObjectId("5fa7701047d74dd7f52ed567") ]
+...             }
+...     }
+... )
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+MongoDB Enterprise > db.topics.update(
+...     {
+...         '_id':ObjectId("5fa76fac47d74dd7f52ed562")
+...     },
+...     {
+...         $set:
+...             {
+...                 "course" : [ObjectId("5fa7701047d74dd7f52ed567"), ObjectId("5fa7701047d74dd7f52ed568"), ObjectId("5fa7701047d74dd7f52ed569") ]
+...             }
+...     }
+... )
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+MongoDB Enterprise > db.topics.update(
+...     {
+...         '_id':ObjectId("5fa76fac47d74dd7f52ed563")
+...     },
+...     {
+...         $set:
+...             {
+...                 "course" : [ObjectId("5fa7701047d74dd7f52ed567"), ObjectId("5fa7701047d74dd7f52ed568"), ObjectId("5fa7701047d74dd7f52ed569") ]
+...             }
+...     }
+... )
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+MongoDB Enterprise > db.topics.update(
+...     {
+...         '_id':ObjectId("5fa76fac47d74dd7f52ed564")
+...     },
+...     {
+...         $set:
+...             {
+...                 "course" : [ObjectId("5fa7701047d74dd7f52ed567") ]
+...             }
+...     }
+... )
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+MongoDB Enterprise > db.topics.update(
+...     {
+...         '_id':ObjectId("5fa76fac47d74dd7f52ed565")
+...     },
+...     {
+...         $set:
+...             {
+...                 "course" : [ObjectId("5fa7701047d74dd7f52ed56a") ]
+...             }
+...     }
+... )
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+MongoDB Enterprise > db.topics.update(
+...     {
+...         '_id':ObjectId("5fa76fac47d74dd7f52ed566")
+...     },
+...     {
+...         $set:
+...             {
+...                 "course" : [ObjectId("5fa7701047d74dd7f52ed56a") ]
+...             }
+...     }
+... )
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+MongoDB Enterprise > db.courses.update(
+...     {
+...         '_id':ObjectId("5fa7701047d74dd7f52ed567")
+...     },
+...     {
+...         $set:
+...             {
+...                 "topics" : [ObjectId("5fa76fac47d74dd7f52ed55f"),  ObjectId("5fa76fac47d74dd7f52ed560"),  ObjectId("5fa76fac47d74dd7f52ed561"), ObjectId("5fa76fac47d74dd7f52ed562"), ObjectId("5fa76fac47d74dd7f52ed564")]
+...             }
+...     }
+... )
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+MongoDB Enterprise > db.courses.update(
+...     {
+...         '_id':ObjectId("5fa7701047d74dd7f52ed568")
+...     },
+...     {
+...         $set:
+...             {
+...                 "topics" : [ ObjectId("5fa76fac47d74dd7f52ed55f"), ObjectId("5fa76fac47d74dd7f52ed562"),  ObjectId("5fa76fac47d74dd7f52ed563") ]
+...             }
+...     }
+... )
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+MongoDB Enterprise > db.courses.update(
+...     {
+...         '_id':ObjectId("5fa7701047d74dd7f52ed569")
+...     },
+...     {
+...         $set:
+...             {
+...                 "topics" : [ ObjectId("5fa76fac47d74dd7f52ed55f"), ObjectId("5fa76fac47d74dd7f52ed562"),  ObjectId("5fa76fac47d74dd7f52ed563") ]
+...             }
+...     }
+... )
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+MongoDB Enterprise > db.courses.update(
+...     {
+...         '_id':ObjectId("5fa7701047d74dd7f52ed56a")
+...     },
+...     {
+...         $set:
+...             {
+...                 "topics" : [ObjectId("5fa76fac47d74dd7f52ed565"), ObjectId("5fa76fac47d74dd7f52ed566")]
+...             }
+...     }
+... )
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+MongoDB Enterprise > db.students.update(
+...     {
+...         '_id':ObjectId("5fa76eae47d74dd7f52ed55b")
+...     },
+...     {
+...         $set:
+...             {
+...                 "skills" : [ "MongoDB", "JAVA", "PYTHON", "JAVASCRIPT" ]
+...             }
+...     }
+... )
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+MongoDB Enterprise > db.students.update(
+...     {
+...         '_id':ObjectId("5fa76eae47d74dd7f52ed55c")
+...     },
+...     {
+...         $set:
+...             {
+...                 "skills" : [ "Algorithms", "DS", "JAVA" ]
+...             }
+...     }
+... )
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+MongoDB Enterprise > db.students.update(
+...     {
+...         '_id':ObjectId("5fa76eae47d74dd7f52ed55d")
+...     },
+...     {
+...         $set:
+...             {
+...                 "skills" : [ "PYTHON", "DS", "JAVA", "PHP" ]
+...             }
+...     }
+... )
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+MongoDB Enterprise > db.students.update(
+...     {
+...         '_id':ObjectId("5fa76eae47d74dd7f52ed55e")
+...     },
+...     {
+...         $set:
+...             {
+...                 "skills" : [ "PYTHON", "JAVA", "PHP", "DOTNET", "AI"]
+...             }
+...     }
+... )
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+MongoDB Enterprise > db.students.update(
+...     {
+...         '_id':ObjectId("5fa76eae47d74dd7f52ed55b")
+...     },
+...     {
+...         $set:
+...             {
+...                 "completedCourse" : [ ObjectId("5fa7701047d74dd7f52ed567"), ObjectId("5fa7701047d74dd7f52ed568") ]
+...             }
+...     }
+... )
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+MongoDB Enterprise > db.students.update(
+...     {
+...         '_id':ObjectId("5fa76eae47d74dd7f52ed55c")
+...     },
+...     {
+...         $set:
+...             {
+...                 "completedCourse" : [ ObjectId("5fa7701047d74dd7f52ed569") ]
+...             }
+...     }
+... )
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+MongoDB Enterprise > db.students.update(
+...     {
+...         '_id':ObjectId("5fa76eae47d74dd7f52ed55d")
+...     },
+...     {
+...         $set:
+...             {
+...                 "completedCourse" : [ ObjectId("5fa7701047d74dd7f52ed569"), ObjectId("5fa7701047d74dd7f52ed568") ]
+...             }
+...     }
+... )
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+MongoDB Enterprise > db.students.update(
+...     {
+...         '_id':ObjectId("5fa76eae47d74dd7f52ed55e")
+...     },
+...     {
+...         $set:
+...             {
+...                 "completedCourse" : [ ObjectId("5fa7701047d74dd7f52ed569"), ObjectId("5fa7701047d74dd7f52ed56a")]
+...             }
+...     }
+... )
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+MongoDB Enterprise >

@@ -1,0 +1,348 @@
+1. Add new Student records
+
+db.students.insertMany(
+    [
+        {
+            "name" : "Prashant Gupta",
+            "age" : 28,
+            "username" : "PGupta"
+        },
+        {
+            "name" : "Arpan Gupta",
+            "age" : 22,
+            "username" : "AGupta"
+        },
+        {
+            "name" : "Darpan Gupta",
+            "age" : 32,
+            "username" : "DGupta"     
+        },
+        {
+            "name" : "Himanshu Gupta",
+            "age" : 29,
+            "username" : "HGupta" 
+        }
+    ]
+)
+
+2. Add new Topics records
+
+db.topics.insertMany([
+{
+        "name" : "Loops"
+},
+{
+        "name" : "Stacks"
+},
+{
+        "name" : "Trees"
+},
+{
+        "name" : "Arrays"
+},
+{
+        "name" : "Operators"
+},
+{
+        "name" : "Graph"
+},
+{
+        "name" : "Sensors"
+},
+{
+        "name" : "neurons"
+}])
+
+
+3. Add new Courses records
+db.courses.insertMany([
+{
+        "name" : "Data Structures",
+        "duration_in_weeks" : 6,
+        "mode" : "online"
+},
+{
+        "name" : "Full Stack Development",
+        "duration_in_weeks" : 13,
+        "mode" : "online"
+},
+{
+        "name" : "Python",
+        "duration_in_weeks" : 4,
+        "mode" : "offline"
+},
+{
+        "name" : "Artificial Intelligence",
+        "duration_in_weeks" : 18,
+        "mode" : "online"
+}])
+
+2. Add new Course to topic
+db.topics.update(
+    {
+        '_id':ObjectId("5fa76fac47d74dd7f52ed55f")
+    },
+    {
+        $set:
+            {
+                "course" : [ObjectId("5fa7701047d74dd7f52ed568") ]
+            }
+    }
+)
+------------
+
+db.topics.update(
+    {
+        '_id':ObjectId("5fa76fac47d74dd7f52ed560")
+    },
+    {
+        $set:
+            {
+                "course" : [ObjectId("5fa7701047d74dd7f52ed567") ]
+            }
+    }
+)
+-------------
+
+db.topics.update(
+    {
+        '_id':ObjectId("5fa76fac47d74dd7f52ed561")
+    },
+    {
+        $set:
+            {
+                "course" : [ObjectId("5fa7701047d74dd7f52ed567") ]
+            }
+    }
+)
+-------------
+
+db.topics.update(
+    {
+        '_id':ObjectId("5fa76fac47d74dd7f52ed562")
+    },
+    {
+        $set:
+            {
+                "course" : [ObjectId("5fa7701047d74dd7f52ed567"), ObjectId("5fa7701047d74dd7f52ed568"), ObjectId("5fa7701047d74dd7f52ed569") ]
+            }
+    }
+)
+-------------
+
+db.topics.update(
+    {
+        '_id':ObjectId("5fa76fac47d74dd7f52ed563")
+    },
+    {
+        $set:
+            {
+                "course" : [ObjectId("5fa7701047d74dd7f52ed567"), ObjectId("5fa7701047d74dd7f52ed568"), ObjectId("5fa7701047d74dd7f52ed569") ]
+            }
+    }
+)
+-------------
+
+db.topics.update(
+    {
+        '_id':ObjectId("5fa76fac47d74dd7f52ed564")
+    },
+    {
+        $set:
+            {
+                "course" : [ObjectId("5fa7701047d74dd7f52ed567") ]
+            }
+    }
+)
+-------------
+
+db.topics.update(
+    {
+        '_id':ObjectId("5fa76fac47d74dd7f52ed565")
+    },
+    {
+        $set:
+            {
+                "course" : [ObjectId("5fa7701047d74dd7f52ed56a") ]
+            }
+    }
+)
+-------------
+
+db.topics.update(
+    {
+        '_id':ObjectId("5fa76fac47d74dd7f52ed566")
+    },
+    {
+        $set:
+            {
+                "course" : [ObjectId("5fa7701047d74dd7f52ed56a") ]
+            }
+    }
+)
+
+5. Add new topic to course
+
+db.courses.update(
+    {
+        '_id':ObjectId("5fa7701047d74dd7f52ed567")
+    },
+    {
+        $set:
+            {
+                "topics" : [ObjectId("5fa76fac47d74dd7f52ed55f"),  ObjectId("5fa76fac47d74dd7f52ed560"),  ObjectId("5fa76fac47d74dd7f52ed561"), ObjectId("5fa76fac47d74dd7f52ed562"), ObjectId("5fa76fac47d74dd7f52ed564")]
+            }
+    }
+)
+-------------
+
+db.courses.update(
+    {
+        '_id':ObjectId("5fa7701047d74dd7f52ed568")
+    },
+    {
+        $set:
+            {
+                "topics" : [ ObjectId("5fa76fac47d74dd7f52ed55f"), ObjectId("5fa76fac47d74dd7f52ed562"),  ObjectId("5fa76fac47d74dd7f52ed563") ]
+            }
+    }
+)
+--------------
+
+db.courses.update(
+    {
+        '_id':ObjectId("5fa7701047d74dd7f52ed569")
+    },
+    {
+        $set:
+            {
+                "topics" : [ ObjectId("5fa76fac47d74dd7f52ed55f"), ObjectId("5fa76fac47d74dd7f52ed562"),  ObjectId("5fa76fac47d74dd7f52ed563") ]
+            }
+    }
+)
+--------------
+
+db.courses.update(
+    {
+        '_id':ObjectId("5fa7701047d74dd7f52ed56a")
+    },
+    {
+        $set:
+            {
+                "topics" : [ObjectId("5fa76fac47d74dd7f52ed565"), ObjectId("5fa76fac47d74dd7f52ed566")]
+            }
+    }
+)
+
+
+6. Add skill to students
+
+db.students.update(
+    {
+        '_id':ObjectId("5fa76eae47d74dd7f52ed55b")
+    },
+    {
+        $set:
+            {
+                "skills" : [ "MongoDB", "JAVA", "PYTHON", "JAVASCRIPT" ]
+            }
+    }
+)
+
+------------
+
+db.students.update(
+    {
+        '_id':ObjectId("5fa76eae47d74dd7f52ed55c")
+    },
+    {
+        $set:
+            {
+                "skills" : [ "Algorithms", "DS", "JAVA" ]
+            }
+    }
+)
+
+------------
+
+db.students.update(
+    {
+        '_id':ObjectId("5fa76eae47d74dd7f52ed55d")
+    },
+    {
+        $set:
+            {
+                "skills" : [ "PYTHON", "DS", "JAVA", "PHP" ]
+            }
+    }
+)
+
+------------
+
+db.students.update(
+    {
+        '_id':ObjectId("5fa76eae47d74dd7f52ed55e")
+    },
+    {
+        $set:
+            {
+                "skills" : [ "PYTHON", "JAVA", "PHP", "DOTNET", "AI"]
+            }
+    }
+)
+
+7. Add completed course to Student
+
+db.students.update(
+    {
+        '_id':ObjectId("5fa76eae47d74dd7f52ed55b")
+    },
+    {
+        $set:
+            {
+                "completedCourse" : [ ObjectId("5fa7701047d74dd7f52ed567"), ObjectId("5fa7701047d74dd7f52ed568") ]
+            }
+    }
+)
+
+-----------------
+
+db.students.update(
+    {
+        '_id':ObjectId("5fa76eae47d74dd7f52ed55c")
+    },
+    {
+        $set:
+            {
+                "completedCourse" : [ ObjectId("5fa7701047d74dd7f52ed569") ]
+            }
+    }
+)
+
+------------------
+
+db.students.update(
+    {
+        '_id':ObjectId("5fa76eae47d74dd7f52ed55d")
+    },
+    {
+        $set:
+            {
+                "completedCourse" : [ ObjectId("5fa7701047d74dd7f52ed569"), ObjectId("5fa7701047d74dd7f52ed568") ]
+            }
+    }
+)
+
+------------------
+
+db.students.update(
+    {
+        '_id':ObjectId("5fa76eae47d74dd7f52ed55e")
+    },
+    {
+        $set:
+            {
+                "completedCourse" : [ ObjectId("5fa7701047d74dd7f52ed569"), ObjectId("5fa7701047d74dd7f52ed56a")]
+            }
+    }
+)
