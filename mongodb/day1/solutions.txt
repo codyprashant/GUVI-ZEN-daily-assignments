@@ -346,3 +346,11 @@ db.students.update(
             }
     }
 )
+
+7. Count number of topics in particular course
+
+db.courses.aggregate({$project:{NumberOfItemsInArray:{$size:"$topics"}}}).pretty();
+
+8. Count number of courses in particular topic
+
+db.topics.aggregate({$project:{NumberOfItemsInArray:{$size:"$course"}}}).pretty();

@@ -341,4 +341,17 @@ MongoDB Enterprise > db.students.update(
 ...     }
 ... )
 WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
-MongoDB Enterprise >
+MongoDB Enterprise > db.topics.aggregate({$project:{NumberOfItemsInArray:{$size:"$course"}}}).pretty();
+{ "_id" : ObjectId("5fa76fac47d74dd7f52ed55f"), "NumberOfItemsInArray" : 1 }
+{ "_id" : ObjectId("5fa76fac47d74dd7f52ed560"), "NumberOfItemsInArray" : 1 }
+{ "_id" : ObjectId("5fa76fac47d74dd7f52ed561"), "NumberOfItemsInArray" : 1 }
+{ "_id" : ObjectId("5fa76fac47d74dd7f52ed562"), "NumberOfItemsInArray" : 3 }
+{ "_id" : ObjectId("5fa76fac47d74dd7f52ed563"), "NumberOfItemsInArray" : 3 }
+{ "_id" : ObjectId("5fa76fac47d74dd7f52ed564"), "NumberOfItemsInArray" : 1 }
+{ "_id" : ObjectId("5fa76fac47d74dd7f52ed565"), "NumberOfItemsInArray" : 1 }
+{ "_id" : ObjectId("5fa76fac47d74dd7f52ed566"), "NumberOfItemsInArray" : 1 }
+MongoDB Enterprise > db.courses.aggregate({$project:{NumberOfItemsInArray:{$size:"$topics"}}}).pretty();
+{ "_id" : ObjectId("5fa7701047d74dd7f52ed567"), "NumberOfItemsInArray" : 5 }
+{ "_id" : ObjectId("5fa7701047d74dd7f52ed568"), "NumberOfItemsInArray" : 3 }
+{ "_id" : ObjectId("5fa7701047d74dd7f52ed569"), "NumberOfItemsInArray" : 3 }
+{ "_id" : ObjectId("5fa7701047d74dd7f52ed56a"), "NumberOfItemsInArray" : 2 }
